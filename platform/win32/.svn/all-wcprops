@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/contiki-conf.h
+END
+clock.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/clock.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/Makefile
+END
+conio.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/conio.h
+END
+Makefile.win32
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/Makefile.win32
+END
+README-1.X
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/README-1.X
+END
+README-VC
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/README-VC
+END
+contiki-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/win32/contiki-main.c
+END

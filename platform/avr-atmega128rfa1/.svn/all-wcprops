@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/contiki-conf.h
+END
+params.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/params.h
+END
+raven-lcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/raven-lcd.h
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/button-sensor.c
+END
+contiki-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/contiki-main.c
+END
+slip_uart0.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/slip_uart0.c
+END
+params.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/params.c
+END
+Makefile.avr-atmega128rfa1
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-atmega128rfa1/Makefile.avr-atmega128rfa1
+END

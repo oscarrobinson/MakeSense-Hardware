@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio
+END
+slip-radio-sky-sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/slip-radio-sky-sensors.c
+END
+slip-radio.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/slip-radio.c
+END
+no-framer.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/no-framer.c
+END
+slip-radio.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/slip-radio.h
+END
+slip-net.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/slip-net.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/Makefile
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/project-conf.h
+END
+slip-radio-cc2420.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/slip-radio/slip-radio-cc2420.c
+END

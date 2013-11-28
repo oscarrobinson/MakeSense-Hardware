@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/msb430/apps
+END
+test-sht11.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/msb430/apps/test-sht11.c
+END
+Makefile.apps
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/msb430/apps/Makefile.apps
+END
+test-abc.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/msb430/apps/test-abc.c
+END
+acc-test.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/msb430/apps/acc-test.c
+END
+sd-test.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/msb430/apps/sd-test.c
+END

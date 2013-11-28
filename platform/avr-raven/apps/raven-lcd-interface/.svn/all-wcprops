@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-raven/apps/raven-lcd-interface
+END
+raven-lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-raven/apps/raven-lcd-interface/raven-lcd.c
+END
+Makefile.raven-lcd-interface
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-raven/apps/raven-lcd-interface/Makefile.raven-lcd-interface
+END

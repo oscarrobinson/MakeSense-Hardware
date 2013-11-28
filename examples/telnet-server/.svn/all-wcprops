@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/Makefile
+END
+telnet-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/telnet-server.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/Makefile.target
+END
+Makefile.c64.defines
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/Makefile.c64.defines
+END
+Makefile.c128.defines
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/Makefile.c128.defines
+END
+Makefile.apple2enh.defines
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/Makefile.apple2enh.defines
+END
+Makefile.atari.defines
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/telnet-server/Makefile.atari.defines
+END

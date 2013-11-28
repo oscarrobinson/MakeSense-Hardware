@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card
+END
+efs-sdcard.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card/efs-sdcard.h
+END
+sdcard.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card/sdcard.h
+END
+cfs-sdcard.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card/cfs-sdcard.c
+END
+efsl_spi.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card/efsl_spi.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card/config.h
+END
+Makefile.sdcard
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/common/SD-card/Makefile.sdcard
+END

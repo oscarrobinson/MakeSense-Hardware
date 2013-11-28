@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb
+END
+conf_usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/conf_usb.h
+END
+usb_drv.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_drv.c
+END
+usb_specific_request.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_specific_request.c
+END
+usb_standard_request.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_standard_request.h
+END
+pll_drv.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/pll_drv.h
+END
+usb_drv.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_drv.h
+END
+usb_descriptors.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_descriptors.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/config.h
+END
+usb_specific_request.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_specific_request.h
+END
+usb_task.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_task.c
+END
+usb_descriptors.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_descriptors.h
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/compiler.h
+END
+usb_task.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_task.h
+END
+usb_standard_request.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/usb_standard_request.c
+END

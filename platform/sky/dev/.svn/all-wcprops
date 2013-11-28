@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev
+END
+sky-sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/sky-sensors.c
+END
+temperature-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/temperature-sensor.c
+END
+sky-sensors.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/sky-sensors.h
+END
+radio-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/radio-sensor.c
+END
+xmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/xmem.c
+END
+light.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/light.c
+END
+temperature-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/temperature-sensor.h
+END
+light.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/light.h
+END
+i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/i2c.c
+END
+light-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/light-sensor.c
+END
+sht11-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/sht11-arch.h
+END
+battery-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/battery-sensor.c
+END
+i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/i2c.h
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/button-sensor.c
+END
+light-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sky/dev/light-sensor.h
+END

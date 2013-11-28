@@ -1,0 +1,28 @@
+import time
+import serial
+
+# configure the serial connections
+ser = serial.Serial(
+    port='/dev/ttyUSB1',
+    baudrate=115200,
+    parity=serial.PARITY_NONE,
+    stopbits=serial.STOPBITS_ONE,
+    bytesize=serial.EIGHTBITS,
+    xonxoff=False,
+    rtscts=False,
+    dsrdtr=False,
+    timeout=2
+)
+
+ser.isOpen()
+
+count = 1;
+while (True):
+    if (ser.inWaiting() > 0):
+				serdata = ser.readline()
+				print '>>' + str(count) + ' ' + serdata
+				count = count+1
+
+
+ser.close()
+exit()

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev
+END
+clock.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/clock.c
+END
+adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/adc.h
+END
+ds2401.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/ds2401.c
+END
+ds2401.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/ds2401.h
+END
+leds-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/leds-arch.c
+END
+slip_uart0.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/slip_uart0.c
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/adc.c
+END
+cc2420-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/micaz/dev/cc2420-arch.c
+END

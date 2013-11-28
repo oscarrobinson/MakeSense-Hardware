@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/antelope/netdb
+END
+netdb-client.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/antelope/netdb/netdb-client.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/antelope/netdb/Makefile
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/antelope/netdb/project-conf.h
+END
+netdb-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/antelope/netdb/netdb-server.c
+END
+netdb.csc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/antelope/netdb/netdb.csc
+END

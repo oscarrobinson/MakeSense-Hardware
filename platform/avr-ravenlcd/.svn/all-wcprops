@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd
+END
+adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/adc.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/Makefile
+END
+key.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/key.h
+END
+lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/lcd.c
+END
+menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/menu.c
+END
+temp.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/temp.c
+END
+lcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/lcd.h
+END
+sleep.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/sleep.c
+END
+menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/menu.h
+END
+temp.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/temp.h
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/uart.c
+END
+beep.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/beep.c
+END
+ravenlcd_3290.aps
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/ravenlcd_3290.aps
+END
+sleep.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/sleep.h
+END
+Makefile.avr-ravenlcd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/Makefile.avr-ravenlcd
+END
+uart.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/uart.h
+END
+timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/timer.c
+END
+beep.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/beep.h
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/timer.h
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/adc.c
+END
+key.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/key.c
+END
+raven3290.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/raven3290.c
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenlcd/main.h
+END

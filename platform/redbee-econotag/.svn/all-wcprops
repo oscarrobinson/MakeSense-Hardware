@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/redbee-econotag
+END
+node-id.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/redbee-econotag/node-id.h
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/redbee-econotag/contiki-conf.h
+END
+Makefile.redbee-econotag
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/redbee-econotag/Makefile.redbee-econotag
+END
+contiki-mc1322x-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/redbee-econotag/contiki-mc1322x-main.c
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/redbee-econotag/button-sensor.c
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/INF
+END
+CompositeAtmelRNDIS.inf
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/INF/CompositeAtmelRNDIS.inf
+END
+dakRAVENUSB_CDC_64bit.inf
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/INF/dakRAVENUSB_CDC_64bit.inf
+END
+dak RAVENUSB_RNDIS_64bit.inf
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/INF/dak%20RAVENUSB_RNDIS_64bit.inf
+END
+CompositeAtmelVCP.inf
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/INF/CompositeAtmelVCP.inf
+END
+AtmelRNDIS.inf
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/dev/usb/INF/AtmelRNDIS.inf
+END

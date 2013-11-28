@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/mac
+END
+zmac.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/mac/zmac.h
+END
+mac.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/mac/mac.c
+END
+sicslowmac.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/mac/sicslowmac.c
+END
+sicslowmac.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/mac/sicslowmac.h
+END
+Makefile.mac
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/mac/Makefile.mac
+END

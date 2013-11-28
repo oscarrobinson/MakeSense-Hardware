@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/apple2enh
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/apple2enh/contiki-conf.h
+END
+Makefile.apple2enh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/apple2enh/Makefile.apple2enh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/apple2enh/README
+END
+contiki-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/apple2enh/contiki-main.c
+END

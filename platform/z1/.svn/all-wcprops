@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1
+END
+node-id.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/node-id.c
+END
+cfs-coffee-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/cfs-coffee-arch.h
+END
+checkpoint-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/checkpoint-arch.c
+END
+Makefile.common
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/Makefile.common
+END
+node-id.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/node-id.h
+END
+Makefile.z1
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/Makefile.z1
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/contiki-conf.h
+END
+contiki-z1-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/contiki-z1-main.c
+END
+contiki-z1-platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/contiki-z1-platform.c
+END
+platform-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/z1/platform-conf.h
+END

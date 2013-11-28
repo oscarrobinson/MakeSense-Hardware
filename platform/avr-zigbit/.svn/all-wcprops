@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-zigbit
+END
+loadable_prg.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-zigbit/loadable_prg.c
+END
+contiki-avr-zigbit-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-zigbit/contiki-avr-zigbit-main.c
+END
+contiki-avr-zigbit.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-zigbit/contiki-avr-zigbit.h
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-zigbit/contiki-conf.h
+END
+Makefile.avr-zigbit
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-zigbit/Makefile.avr-zigbit
+END

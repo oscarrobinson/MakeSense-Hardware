@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws
+END
+setcosm.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/setcosm.py
+END
+websense-z1.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/websense-z1.c
+END
+json-ws.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/json-ws.h
+END
+json-ws-udp.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/json-ws-udp.c
+END
+README-COSM.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/README-COSM.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/Makefile
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/project-conf.h
+END
+websense-sky.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/websense-sky.c
+END
+json-ws.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/json-ws.c
+END
+gogoc.conf
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/json-ws/gogoc.conf
+END

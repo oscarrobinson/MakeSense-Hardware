@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/Makefile
+END
+example-LSM330DLC.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/example-LSM330DLC.c
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/common.h
+END
+symbols.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/symbols.h
+END
+blink.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/blink.c
+END
+ADC_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/ADC_example.c
+END
+bma180_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/bma180_example.c
+END
+itg3200_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/itg3200_example.c
+END
+test-coffee.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/test-coffee.c
+END
+project_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/project_main.c
+END
+lsm330dlc_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/lsm330dlc_example.c
+END
+example-coffee.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/example-coffee.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/Makefile.target
+END
+SHT2x_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/SHT2x_example.c
+END
+lea_6t_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/lea_6t_example.c
+END
+bmp085_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/bmp085_example.c
+END
+hmc5883l_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/hmc5883l_example.c
+END
+example-rudolph1.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/example-rudolph1.c
+END
+mpu6050_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/mpu6050_example.c
+END
+symbols.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/symbols.c
+END
+test-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/orisen/test-button.c
+END

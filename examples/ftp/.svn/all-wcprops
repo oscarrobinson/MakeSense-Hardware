@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile.target
+END
+Makefile.c64.defines
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile.c64.defines
+END
+Makefile.c128.defines
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile.c128.defines
+END
+Makefile.apple2enh.defines
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile.apple2enh.defines
+END
+ftp-client.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/ftp-client.c
+END
+Makefile.atari.defines
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile.atari.defines
+END
+Makefile.win32.defines
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ftp/Makefile.win32.defines
+END

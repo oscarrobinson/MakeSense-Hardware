@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode
+END
+disco.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/disco.c
+END
+Makefile.sensinode
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/Makefile.sensinode
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/debug.c
+END
+disco.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/disco.h
+END
+putchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/putchar.c
+END
+viztool.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/viztool.c
+END
+contiki-sensinode-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/contiki-sensinode-main.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/contiki-conf.h
+END
+segment.rules
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/segment.rules
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sensinode/debug.h
+END

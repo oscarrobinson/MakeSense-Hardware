@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6/server.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6/Makefile
+END
+client.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6/client.c
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6/project-conf.h
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6/Makefile.target
+END
+ping6.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/udp-ipv6/ping6.c
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include
+END
+i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/i2c.h
+END
+asm.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/asm.h
+END
+crm.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/crm.h
+END
+adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/adc.h
+END
+rtc.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/rtc.h
+END
+isr.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/isr.h
+END
+gpio.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/gpio.h
+END
+mc1322x.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/mc1322x.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/utils.h
+END
+nvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/nvm.h
+END
+maca.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/maca.h
+END
+tmr.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/tmr.h
+END
+pwm.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/pwm.h
+END
+kbi.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/kbi.h
+END
+packet.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/packet.h
+END
+gpio-util.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/gpio-util.h
+END
+uart.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x.orig/lib/include/uart.h
+END

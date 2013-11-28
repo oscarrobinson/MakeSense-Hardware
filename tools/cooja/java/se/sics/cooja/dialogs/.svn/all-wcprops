@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs
+END
+ExternalToolsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/ExternalToolsDialog.java
+END
+ProjectDirectoriesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/ProjectDirectoriesDialog.java
+END
+UpdateAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/UpdateAggregator.java
+END
+TableColumnAdjuster.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/TableColumnAdjuster.java
+END
+ConfigurationWizard.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/ConfigurationWizard.java
+END
+CompileContiki.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/CompileContiki.java
+END
+BufferSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/BufferSettings.java
+END
+AbstractCompileDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/AbstractCompileDialog.java
+END
+CreateSimDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/CreateSimDialog.java
+END
+AddMoteDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/AddMoteDialog.java
+END
+SerialUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/SerialUI.java
+END
+ContikiMoteCompileDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/ContikiMoteCompileDialog.java
+END
+ImportAppMoteDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/ImportAppMoteDialog.java
+END
+MessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/dialogs/MessageList.java
+END

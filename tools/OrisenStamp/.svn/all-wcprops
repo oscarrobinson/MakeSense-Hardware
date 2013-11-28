@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenStamp
+END
+mc1322x-load.pl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenStamp/mc1322x-load.pl
+END
+serialdump.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenStamp/serialdump.c
+END
+serialdump-windows.exe
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenStamp/serialdump-windows.exe
+END
+flasher_OrisenStamp.bin
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenStamp/flasher_OrisenStamp.bin
+END
+serialdump-linux
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenStamp/serialdump-linux
+END

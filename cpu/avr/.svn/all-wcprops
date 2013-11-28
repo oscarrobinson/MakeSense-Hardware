@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr
+END
+rtimer-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/rtimer-arch.h
+END
+slip_uart1.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/slip_uart1.c
+END
+Makefile.avr
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/Makefile.avr
+END
+mtarch.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/mtarch.h
+END
+avr.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/avr.c
+END
+bootloader.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/bootloader.c
+END
+spi.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/spi.c
+END
+bootloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/bootloader.h
+END
+watchdog.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/watchdog.c
+END
+settings.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/settings.c
+END
+leds-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/leds-arch.c
+END
+minileds.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/minileds.c
+END
+settings.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/settings.h
+END
+cc2420_spi.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/cc2420_spi.c
+END
+avrdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/avrdef.h
+END
+rtimer-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/rtimer-arch.c
+END
+mtarch.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/mtarch.c
+END

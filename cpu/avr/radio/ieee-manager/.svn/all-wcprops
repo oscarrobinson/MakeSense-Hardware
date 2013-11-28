@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/ieee-manager
+END
+ieee-15-4-manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/ieee-manager/ieee-15-4-manager.h
+END
+Makefile.ieee-manager
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/ieee-manager/Makefile.ieee-manager
+END
+ieee-15-4-manager.c
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/avr/radio/ieee-manager/ieee-15-4-manager.c
+END

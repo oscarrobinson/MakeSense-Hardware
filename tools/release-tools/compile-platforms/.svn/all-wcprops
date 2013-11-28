@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/release-tools/compile-platforms
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/release-tools/compile-platforms/Makefile
+END
+Makefile.platform
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/release-tools/compile-platforms/Makefile.platform
+END
+hello-world.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/release-tools/compile-platforms/hello-world.c
+END

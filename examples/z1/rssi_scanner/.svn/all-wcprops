@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/rssi_scanner
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/rssi_scanner/project-conf.h
+END
+ViewRSSI3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/rssi_scanner/ViewRSSI3D.java
+END
+rssi-scanner.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/rssi_scanner/rssi-scanner.c
+END
+ViewRSSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/rssi_scanner/ViewRSSI.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/rssi_scanner/Makefile
+END

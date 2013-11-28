@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/241/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp
+END
+Makefile.OrisenStamp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/Makefile.OrisenStamp
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/button-sensor.c
+END
+cfs-fat.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/cfs-fat.c
+END
+contiki-stamp-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/contiki-stamp-main.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/contiki-conf.h
+END

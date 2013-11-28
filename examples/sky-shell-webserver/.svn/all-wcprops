@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/sky-shell-webserver
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/sky-shell-webserver/Makefile
+END
+sky-shell-webserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/sky-shell-webserver/sky-shell-webserver.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/sky-shell-webserver/Makefile.target
+END

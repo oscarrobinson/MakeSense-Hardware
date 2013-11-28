@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs
+END
+cfs-ram.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-ram.c
+END
+cfs-posix.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-posix.c
+END
+cfs-xmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-xmem.c
+END
+cfs-coffee.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-coffee.c
+END
+cfs-eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-eeprom.c
+END
+cfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs.h
+END
+cfs-coffee.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-coffee.h
+END
+cfs-posix-dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/core/cfs/cfs-posix-dir.c
+END

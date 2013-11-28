@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer/Makefile.target
+END
+stub-rdc.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer/stub-rdc.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer/Makefile
+END
+netstack.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer/netstack.c
+END
+sniffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer/sniffer.c
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/cc2530dk/sniffer/project-conf.h
+END

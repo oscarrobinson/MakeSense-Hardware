@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb
+END
+contiki-raven-default-init-lowlevel.c
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/contiki-raven-default-init-lowlevel.c
+END
+Makefile.avr-ravenusb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/Makefile.avr-ravenusb
+END
+rng.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/rng.c
+END
+sicslow_ethernet.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/sicslow_ethernet.h
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/contiki-conf.h
+END
+cdc_task.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/cdc_task.c
+END
+contiki-raven-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/contiki-raven-main.c
+END
+loadable_prg.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/loadable_prg.c
+END
+rng.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/rng.h
+END
+contiki-raven.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/contiki-raven.h
+END
+cdc_task.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/cdc_task.h
+END
+contiki-raven-default-init-net.c
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/contiki-raven-default-init-net.c
+END
+httpd-simple-avr.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/httpd-simple-avr.c
+END
+sicslow_ethernet.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/avr-ravenusb/sicslow_ethernet.c
+END

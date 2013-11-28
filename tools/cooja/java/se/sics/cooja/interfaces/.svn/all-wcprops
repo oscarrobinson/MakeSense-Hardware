@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces
+END
+PolledBeforeAllTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/PolledBeforeAllTicks.java
+END
+PIR.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/PIR.java
+END
+Clock.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Clock.java
+END
+PolledAfterActiveTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/PolledAfterActiveTicks.java
+END
+Mote2MoteRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Mote2MoteRelations.java
+END
+PolledBeforeActiveTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/PolledBeforeActiveTicks.java
+END
+Radio.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Radio.java
+END
+RimeAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/RimeAddress.java
+END
+Beeper.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Beeper.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Position.java
+END
+LED.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/LED.java
+END
+ApplicationSerialPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/ApplicationSerialPort.java
+END
+Battery.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Battery.java
+END
+Button.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Button.java
+END
+MoteAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/MoteAttributes.java
+END
+NoiseSourceRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/NoiseSourceRadio.java
+END
+IPAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/IPAddress.java
+END
+DirectionalAntennaRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/DirectionalAntennaRadio.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/Log.java
+END
+MoteID.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/MoteID.java
+END
+ApplicationRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/ApplicationRadio.java
+END
+CustomDataRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/CustomDataRadio.java
+END
+SerialPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/SerialPort.java
+END
+ApplicationLED.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/ApplicationLED.java
+END
+PolledAfterAllTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/interfaces/PolledAfterAllTicks.java
+END

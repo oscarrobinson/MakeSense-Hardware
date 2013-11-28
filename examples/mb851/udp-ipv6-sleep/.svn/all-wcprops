@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/udp-ipv6-sleep
+END
+udp-client.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/udp-ipv6-sleep/udp-client.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/udp-ipv6-sleep/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/udp-ipv6-sleep/README
+END
+udp-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/udp-ipv6-sleep/udp-server.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/udp-ipv6-sleep/Makefile.target
+END

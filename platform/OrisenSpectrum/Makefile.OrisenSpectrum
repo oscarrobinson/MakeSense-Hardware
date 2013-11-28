@@ -1,0 +1,81 @@
+# -*- makefile -*-
+
+CONTIKI_TARGET_DIRS = . dev apps net dev/include
+CONTIKI_CORE=contiki-spectrum-main
+CONTIKI_TARGET_MAIN = ${CONTIKI_CORE}.o
+
+CONTIKI_TARGET_SOURCEFILES += contiki-spectrum-main.c clock.c dummy-sensor.c \
+	sensors.c slip.c ds2411.c ms5611.c mpu9150.c\
+	uSDcard.c ff.c diskio.c cfs-fat.c amy_6m.c
+#lea_6t.c
+
+CONTIKIMC1322X=$(CONTIKI)/cpu/mc1322x
+
+ifndef CONTIKIBOARD
+CONTIKIBOARD=.
+endif
+
+CONTIKI_PLAT_DEFS = 
+
+MCU=arm7tdmi-s
+
+ifdef UIP_CONF_IPV6
+CFLAGS += -DWITH_UIP6=1
+endif
+
+# Venus added
+BINFILE=tmpimage.bin
+ORISENSPECTRUM_BSL_FILE     = mc1322x-load.pl
+ORISENSPECTRUM_FLASHER_FILE = flasher_OrisenSpectrum.bin
+FLASHER = $(CONTIKI)/tools/OrisenSpectrum/$(ORISENSPECTRUM_FLASHER_FILE)
+
+BSL   = sudo $(CONTIKI)/tools/OrisenSpectrum/$(ORISENSPECTRUM_BSL_FILE) -f $(FLASHER)
+#upload to RAM only
+BSL_R = sudo $(CONTIKI)/tools/OrisenSpectrum/$(ORISENSPECTRUM_BSL_FILE)	
+
+ifdef USB
+	UPLOAD_PORT = /dev/tty$(USB)
+else
+	UPLOAD_PORT = /dev/ttyUSB0
+endif
+
+SERIALDUMP = sudo $(CONTIKI)/tools/OrisenSpectrum/serialdump-linux
+ 
+%.upload: 
+	@echo compiling file $@
+	$(MAKE) $(subst .upload, , $*) 
+	@echo +++++ Programming $(subst -,/,$*) 
+	$(BSL) -s $(subst .upload, , $*)_$(TARGET).bin -t $(UPLOAD_PORT) -c '../../tools/OrisenSpectrum/ftditools/bbmc -l OrisenSpectrum erase' && sleep 2
+
+%.upload_RAM: 
+	@echo compiling file $@
+	$(MAKE) $(subst .upload_RAM, , $*) 
+	@echo +++++ Programming $(subst -,/,$*) 
+	$(BSL_R) -f $(subst .upload, , $*)_$(TARGET).bin -t $(UPLOAD_PORT) -a 1000 -b 1000 -c '../../tools/OrisenSpectrum/ftditools/bbmc -l OrisenSpectrum reset' && sleep 5 
+
+%.upload_RAM_USB1: 
+	@echo compiling file $@
+	$(MAKE) $(subst .upload, , $*) 
+	@echo +++++ Programming $(subst -,/,$*) 
+	$(BSL_R) -f $(subst .upload, , $*)_$(TARGET).bin -t $(UPLOAD_PORT) -a 1000 -b 1000 && sleep 5 
+				
+upload_file:
+ifdef FILE
+	@echo uploading file
+	$(BSL) -s $(FILE) -t $(UPLOAD_PORT) && sleep 2 
+endif #FILE
+
+upload_file_RAM:
+ifdef FILE
+	@echo uploading file
+	$(BSL_R) -f $(FILE) -t $(UPLOAD_PORT) && sleep 2 
+endif #FILE
+
+serialview:
+	$(SERIALDUMP) -b115200 $(UPLOAD_PORT) | $(CONTIKI)/tools/timestamp
+
+login:
+	$(SERIALDUMP) -b115200 $(UPLOAD_PORT)
+		
+include $(CONTIKIMC1322X)/Makefile.mc1322x
+

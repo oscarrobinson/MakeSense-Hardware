@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/telnet-server
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/telnet-server/Makefile
+END
+telnet-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/telnet-server/telnet-server.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/mb851/telnet-server/Makefile.target
+END

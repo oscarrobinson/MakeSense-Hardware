@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trac-svn/insentive/!svn/ver/270/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp
+END
+test-kbi.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/261/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/test-kbi.c
+END
+test-RTC.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trac-svn/insentive/!svn/ver/261/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/test-RTC.c
+END
+example-trickle.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/example-trickle.c
+END
+test-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/test-button.c
+END
+hello-world.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/hello-world.c
+END
+test-uart2.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/263/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/test-uart2.c
+END
+Makefile.OrisenStamp.defines
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/Makefile.OrisenStamp.defines
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/261/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/Makefile
+END
+example-abc.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/example-abc.c
+END
+test-iopins.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/261/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/test-iopins.c
+END
+example-unicast.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/example-unicast.c
+END
+example-coffee.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/example-coffee.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/Makefile.target
+END
+serialExample.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/266/Contiki-open-source/branches/prj-Meth13/examples/OrisenStamp/serialExample.py
+END

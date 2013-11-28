@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/examples/project_new_interface
+END
+dummy_intf.c
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/examples/project_new_interface/dummy_intf.c
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/examples/project_new_interface/build.xml
+END
+cooja.config
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/examples/project_new_interface/cooja.config
+END
+dummy_intf.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/examples/project_new_interface/dummy_intf.h
+END

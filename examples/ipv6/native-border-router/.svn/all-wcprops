@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router
+END
+httpd-simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/httpd-simple.c
+END
+slip-config.c
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/slip-config.c
+END
+border-router.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/border-router.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/Makefile
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/project-conf.h
+END
+border-router-cmds.c
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/border-router-cmds.c
+END
+httpd-simple.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/httpd-simple.h
+END
+border-router.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/border-router.h
+END
+tun-bridge.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/tun-bridge.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/Makefile.target
+END
+border-router-rdc.c
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/border-router-rdc.c
+END
+slip-dev.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/slip-dev.c
+END
+border-router-cmds.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/ipv6/native-border-router/border-router-cmds.h
+END

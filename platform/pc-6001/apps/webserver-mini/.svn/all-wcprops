@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini
+END
+webserver-nogui.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/webserver-nogui.h
+END
+httpd-cgi.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-cgi.h
+END
+httpd-fsdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-fsdata.h
+END
+httpd.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd.h
+END
+Makefile.webserver-mini
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/Makefile.webserver-mini
+END
+httpd-fs.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-fs.c
+END
+httpd-cfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-cfs.c
+END
+httpd-fs.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-fs.h
+END
+httpd-cfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-cfs.h
+END
+http-strings.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/http-strings.c
+END
+http-strings.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/http-strings.h
+END
+httpd-cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-cgi.c
+END
+httpd-fsdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd-fsdata.c
+END
+httpd.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/httpd.c
+END
+webserver-nogui.c
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/webserver-nogui.c
+END
+http-strings
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/pc-6001/apps/webserver-mini/http-strings
+END

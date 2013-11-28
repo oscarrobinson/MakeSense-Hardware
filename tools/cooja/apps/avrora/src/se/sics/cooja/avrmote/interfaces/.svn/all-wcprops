@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces
+END
+MicaZID.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaZID.java
+END
+MicaZRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaZRadio.java
+END
+MicaClock.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaClock.java
+END
+MicaZLED.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaZLED.java
+END
+MicaSerial.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaSerial.java
+END
