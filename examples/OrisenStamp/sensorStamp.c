@@ -38,7 +38,19 @@
 PROCESS(test_uart2_process, "Test UART2");
 AUTOSTART_PROCESSES(&test_uart2_process);
 /*---------------------------------------------------------------------------*/
-
+double current_timestamp() {
+    struct timeval tv;
+  gettimeofday(&tv,NULL);
+  double timestamp;
+  double timestampMicro;
+  double timestampSecond;
+  timestampMicro = (double)tv.tv_usec; // microseconds
+  timestampMicro = timestampMicro/1000000;
+  timestampSecond = (double)tv.tv_sec;
+  printf("us: %f\n", timestampMicro);
+  timestamp = timestampMicro + timestampSecond;
+  return timestamp;
+}
 
   static void abc_recv(struct abc_conn *c)
   {
@@ -53,26 +65,35 @@ PROCESS_THREAD(example_abc_process, ev, data)
   static struct etimer et;
   PROCESS_EXITHANDLER(abc_close(&abc);)
   PROCESS_BEGIN();
-  	
+  int length  = 100;
+  double timestamp;
+  timestamp = current_timestamp();
+  char stringToSend[length];
 
+  //copy data into new string to prevent serial read thread overwriting while we send it
   char c = *((char*)data);
-  int length = 0;
+  int l = 0;
   while(c!='-'){
-  	length++;
-    c=*((char*)data+length);
+  	l++;
+    c=*((char*)data+l);
   }
   int i=0;
-  char broadcast[length];
-  for(i=0;i<length;i++){
+  char broadcast[l];
+  for(i=0;i<l;i++){
   	broadcast[i]=*((char*)data+i);
   }
 
-  abc_open(&abc, 128, &abc_call);
+ //create the string to send with timestamp and data
+ sprintf(stringToSend,"%.2f %s",timestamp, broadcast);
+ abc_open(&abc, 128, &abc_call);
+
+ //PRINT STRING WE'RE SENDING
  int x=0;
  for(x=0;x<length;x++){
 	printf("%c",broadcast[x]);
  }
  printf("\n");
+ /////////////////////
  packetbuf_copyfrom(broadcast, length);
  abc_send(&abc);
  FLASH_LED(LEDS_GREEN);
