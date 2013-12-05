@@ -81,7 +81,7 @@ PROCESS_THREAD(example_abc_process, ev, data)
 	timestampLen++;
  }
  printf("timestampLen: %d timestamp:%lu\n",timestampLen,timestamp);
- char stringToSend[timestampLen+5];
+ char stringToSend[timestampLen+3];
  sprintf(stringToSend,"  %lu X ",timestamp);
  strcat(stringToSend, broadcast);
  printf("%s \n", stringToSend);
