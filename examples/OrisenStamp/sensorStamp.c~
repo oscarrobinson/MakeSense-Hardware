@@ -62,6 +62,7 @@ PROCESS_THREAD(example_abc_process, ev, data)
    int dataLength = 0;
    dataLength = strlen(data);
    
+   printf("Data String: %s---\n", data);
 
    //get the timestamp
    unsigned long int timestamp;
