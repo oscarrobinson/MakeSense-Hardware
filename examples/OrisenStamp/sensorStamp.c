@@ -109,8 +109,6 @@ PROCESS_THREAD(test_uart2_process, ev, data)
   static int   strlen = 13;
   static int i, j;
 
-
-
   leds_off(LEDS_ALL);
 
   // Set UART2 to 115200 baud
@@ -121,30 +119,30 @@ PROCESS_THREAD(test_uart2_process, ev, data)
   //
   // Tests our TX and RX
   //
+
   int counter = 0;
   int size = 30;
   char data[size];
   abc_open(&abc, 128, &abc_call);
+  //read the sensor data from serial into data array
   while (1) {
     char ch = uart2_getc();
-	//printf("%c\n",ch);
 	
-	if (ch=='\n'){
-		int i=0;
-		for(i=counter;i<size;i++){
+	 if (ch=='\n'){
+		  int i=0;
+		  for(i=counter;i<size;i++){
 			data[i]='-';
 		}
-		//sprintf(toSend,"ab");			
-		counter=0;
+    counter=0;
 		if(data[size-1]=='-'){
 			process_start (&example_abc_process, data);
 			FLASH_LED(LEDS_GREEN);
 		}		
 	}
-    else{
+  else{
 		data[counter]=ch;
 		counter++;
- 	 }
+ 	}
   }
   PROCESS_END();	
 }
