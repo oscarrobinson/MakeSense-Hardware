@@ -7,11 +7,13 @@
 #include "net/rime.h"
 #include <string.h>
 #include "clock.h"
+#include "RTC.h"
 #include <stdlib.h>
+#include "net/rime/rimeaddr.h"
 
 
 #define FLASH_LED(l) {leds_on(l); clock_delay_msec(50); leds_off(l); clock_delay_msec(50);}
-static int ID = 11112222;
+char * ID;
 
 /*
  * Pin    Initial function			Additional list										Arrangement
@@ -42,6 +44,21 @@ static int ID = 11112222;
 PROCESS(test_uart2_process, "Test UART2");
 AUTOSTART_PROCESSES(&test_uart2_process);
 /*---------------------------------------------------------------------------*/
+static char * idAsString(){
+   rimeaddr_t ID = rimeaddr_node_addr;
+   int counter = 0;
+   char * idString = malloc(17*sizeof(char));
+   for(counter = 0;counter<8;counter++){
+      char * temp = malloc(3*sizeof(char));
+      sprintf(temp, "%02X\0", ID.u8[counter]); 
+      strcat(idString, temp);
+      free(temp);
+      printf("%02X\n",ID.u8[counter]);
+   }
+   idString[16] = '\0';
+   return idString;
+}
+
 
 static void abc_recv(struct abc_conn *c)
 {
@@ -78,7 +95,7 @@ PROCESS_THREAD(example_abc_process, ev, data)
    //convert id to string
    int idStringLen = 30;
    char * idString = malloc(idStringLen * sizeof(char));
-   sprintf(idString,"%d",ID);
+   sprintf(idString,"%s",ID);
 
    //prepare the string to send
    int numberOfExtraChars = 6;
@@ -106,7 +123,7 @@ PROCESS_THREAD(example_abc_process, ev, data)
 PROCESS_THREAD(test_uart2_process, ev, data)
 {
   PROCESS_BEGIN();
-
+  ID = idAsString();
   static struct etimer et;
   static char *str = "Hello world\n";
   static int   strlen = 13;
