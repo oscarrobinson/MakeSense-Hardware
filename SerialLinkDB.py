@@ -25,7 +25,7 @@ db = MySQLdb.connect(host="eu-cdbr-azure-west-b.cloudapp.net",
  
 
 cur = db.cursor() 
-cur.execute("TRUNCATE TABLE lightsensor;")
+cur.execute("TRUNCATE TABLE multiple_sensors;")
 
 count = 0;
 startTimestampRead = 0
@@ -56,11 +56,11 @@ while (True):
 		
 		count+=1
 
-		#query="INSERT INTO lightsensor(timestamp,data)VALUES("+str(num)+",'"+str(serdata)+"');"
-		#print query
-		#cur.execute(query)
-		#db.commit()
-		#count = count+1
+		query="INSERT INTO multiple_sensors(id,data,timestamp)VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\');"
+		print query
+		cur.execute(query)
+		db.commit()
+		count = count+1
 
 ser.close()
 exit()
