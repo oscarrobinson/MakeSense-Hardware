@@ -59,6 +59,19 @@ static char * idAsString(){
    return idString;
 }
 
+//Time is still just time since hardware was last flashed.  How do we fix this?
+/*
+unsigned long getUnixTimestamp(){
+   struct RTC_time t;
+   RTC_getTime(&t);
+   printf("Time - year: %d | month: %d | date: %d | hour: %d | minute: %d | second: %d\n", t.year, t.month, t.day, t.hours, t.minutes, t.seconds);    
+   unsigned long time = 34242343;
+   return time;
+
+}
+*/
+
+
 
 static void abc_recv(struct abc_conn *c)
 {
@@ -78,10 +91,9 @@ PROCESS_THREAD(example_abc_process, ev, data)
    
    int dataLength = 0;
    dataLength = strlen(data);
-   
-
+  
    //get the timestamp
-   unsigned long int timestamp;
+   unsigned long timestamp;
    timestamp = clock_seconds();
    //get length of timestamp
    int timestampLen = 0;
@@ -146,6 +158,7 @@ PROCESS_THREAD(test_uart2_process, ev, data)
   abc_open(&abc, 128, &abc_call);
   //read the sensor data from serial into dataRead array
   while (1) {
+
     char ch = uart2_getc();
     if (ch=='\n'){
          //the character before \n is a \r, we don't want that so we overwrite it with a \0 which we do need
@@ -157,7 +170,7 @@ PROCESS_THREAD(test_uart2_process, ev, data)
          for(i=0;i<(counter);i++){
   	         dataString[i]=*((char*)dataRead+i);
          }
-         
+         printf("reading data: %s\n", dataString);
 			process_start (&example_abc_process, dataString);
 			FLASH_LED(LEDS_GREEN);
          free(dataRead);
