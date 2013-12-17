@@ -3,13 +3,6 @@ import time
 import string
 import random
 import serial
-def splitString(str):
-	result = []
-	for s in str.split():
-		if s.isdigit():
-			result.append(int(s))
-	return result
-
 
 # configure the serial connections
 ser = serial.Serial(
@@ -37,24 +30,27 @@ cur.execute("TRUNCATE TABLE lightsensor;")
 count = 0;
 startTimestampRead = 0
 startTimestamp = 0
+timestamps = dict()
 
 while (True):
 	if (ser.inWaiting() > 0):
 		print "reading data"
 		serdata = ser.readline()
-		numbers = splitString(serdata)
-		hardwareId = numbers[0]
-		data = numbers[1]
-		timestamp = numbers[2]
+		print serdata
+		dataList = serdata.split()
+		hardwareId = dataList[0]
+		data = dataList[2]
+		timestamp = dataList[4]
 
-		#if first reading, save current time and first timestamp read, can then calculate time of reading for all other readings
-		if count==0:
+		#if first reading for a stamp, save timestamp stuff so can calculate its timestamp
+		if hardwareId not in timestamps:
 			startTimestampRead = int(timestamp)
 			startTimestamp = int(time.time())
-			timestamp = startTimestamp
-		#calculate the time the reading was made
-		else:
-			timestamp = startTimestamp + (timestamp-startTimestampRead)
+			timestampDat = [startTimestampRead, startTimestamp]
+			timestamps[hardwareId] = timestampDat
+
+
+		timestamp = int((timestamps[hardwareId])[1]) + (int(timestamp)-int((timestamps[hardwareId])[0]))
 
 		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)
 		
