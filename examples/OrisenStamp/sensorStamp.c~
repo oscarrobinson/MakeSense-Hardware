@@ -94,7 +94,7 @@ PROCESS_THREAD(example_abc_process, ev, data)
   
    //get the timestamp
    unsigned long timestamp;
-   timestamp = clock_seconds();
+   timestamp = getUnixTimestamp();
    //get length of timestamp
    int timestampLen = 0;
    int temp = (int)timestamp;

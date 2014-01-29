@@ -3,10 +3,10 @@ import time
 import string
 import random
 import serial
- 
+
 # configure the serial connections
 ser = serial.Serial(
-	port='/dev/ttyUSB1',
+	port='/dev/cu.usbserial-FTWVXL40B',
 	baudrate=115200,
 	parity=serial.PARITY_NONE,
 	stopbits=serial.STOPBITS_ONE,
@@ -25,21 +25,42 @@ db = MySQLdb.connect(host="eu-cdbr-azure-west-b.cloudapp.net",
  
 
 cur = db.cursor() 
-cur.execute("TRUNCATE TABLE lightsensor;")
+cur.execute("TRUNCATE TABLE multiple_sensors;")
 
-#count = 1;
+count = 0;
+startTimestampRead = 0
+startTimestamp = 0
+timestamps = dict()
+
 while (True):
 	if (ser.inWaiting() > 0):
 		print "reading data"
-		serdata = float(ser.readline())
+		serdata = ser.readline()
 		print serdata
-		num = time.time()
-		query="INSERT INTO lightsensor(timestamp,data)VALUES("+str(num)+",'"+str(serdata)+"');"
+		dataList = serdata.split()
+		hardwareId = dataList[0]
+		data = dataList[2]
+		timestamp = dataList[4]
+
+		#if first reading for a stamp, save timestamp stuff so can calculate its timestamp
+		if hardwareId not in timestamps:
+			startTimestampRead = int(timestamp)
+			startTimestamp = int(time.time())
+			timestampDat = [startTimestampRead, startTimestamp]
+			timestamps[hardwareId] = timestampDat
+
+
+		timestamp = int((timestamps[hardwareId])[1]) + (int(timestamp)-int((timestamps[hardwareId])[0]))
+
+		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)
+		
+		count+=1
+
+		query="INSERT INTO multiple_sensors(id,data,timestamp)VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\');"
 		print query
 		cur.execute(query)
 		db.commit()
-		print "time " + str(num) 
-		#count = count+1
+		count = count+1
 
 ser.close()
 exit()
