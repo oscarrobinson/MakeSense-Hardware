@@ -45,6 +45,11 @@
 #include "dev/leds.h"
 #include "dev/button-sensor.h"
 
+#include "contiki-uart.h"
+#include <mc1322x.h>
+#include <board.h>
+#include <string.h>
+
 #include "net/netstack.h"
 
 #include <stdio.h>
@@ -61,11 +66,18 @@ AUTOSTART_PROCESSES(&example_collect_process);
 static void
 recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops)
 {
-  printf("Sink got message from %d.%d, seqno %d, hops %d: len %d '%s'\n",
+  /*printf("Sink got message from %d.%d, seqno %d, hops %d: len %d '%s\n",
 	 originator->u8[0], originator->u8[1],
 	 seqno, hops,
 	 packetbuf_datalen(),
-	 (char *)packetbuf_dataptr());
+	 (char *)packetbuf_dataptr());*/
+  printf("%s\n",(char *)packetbuf_dataptr());
+  int l = strlen((char *)packetbuf_dataptr());
+  int c;
+  for(c=0;c<l;c++){
+	uart2_putc(*((char *)packetbuf_dataptr()+c));
+  }
+  uart2_putc(';');
   FLASH_LED(LEDS_GREEN);
 }
 /*---------------------------------------------------------------------------*/
@@ -81,7 +93,7 @@ PROCESS_THREAD(example_collect_process, ev, data)
 
 
   collect_open(&tc, 130, COLLECT_ROUTER, &callbacks);
-
+  uart2_init(INC, MOD, SAMP);
 
 //  if(rimeaddr_node_addr.u8[0] == 1 &&
 //     rimeaddr_node_addr.u8[1] == 0) {
