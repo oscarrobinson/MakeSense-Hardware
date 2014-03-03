@@ -92,7 +92,7 @@
 #endif
 
 #ifndef RIMEADDR_NVM
-#define RIMEADDR_NVM 0x1F400
+#define RIMEADDR_NVM 0x1E400
 #endif
 
 #ifndef RIMEADDR_NBYTES
