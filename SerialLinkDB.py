@@ -4,9 +4,11 @@ import string
 import random
 import serial
 
+cpuserial = "0000000000000000"
+
 # configure the serial connections
 ser = serial.Serial(
-	port='/dev/cu.usbserial-FTWVXL40B',
+	port='/dev/cu.usbserial-1d11B',
 	baudrate=115200,
 	parity=serial.PARITY_NONE,
 	stopbits=serial.STOPBITS_ONE,
@@ -18,14 +20,14 @@ ser = serial.Serial(
 )
 
 #create database object and connect
-db = MySQLdb.connect(host="eu-cdbr-azure-west-b.cloudapp.net", 
-                     user="bd4f86da652db2",
-                      passwd="95905cbf",
-                      db="methtesA9fvknZn4")
+db = MySQLdb.connect(host="eu-cdbr-azure-north-b.cloudapp.net", 
+                     user="b56834bde0c85e",
+                      passwd="87a230d7",
+                      db="makesensemain")
  
 
 cur = db.cursor() 
-cur.execute("TRUNCATE TABLE multiple_sensors;")
+cur.execute("TRUNCATE TABLE sensor_data;")
 
 count = 0;
 startTimestampRead = 0
@@ -41,6 +43,7 @@ while (True):
 		hardwareId = dataList[0]
 		data = dataList[2]
 		timestamp = dataList[4]
+		ontologyId = dataList[6]
 
 		#if first reading for a stamp, save timestamp stuff so can calculate its timestamp
 		if hardwareId not in timestamps:
@@ -52,11 +55,11 @@ while (True):
 
 		timestamp = int((timestamps[hardwareId])[1]) + (int(timestamp)-int((timestamps[hardwareId])[0]))
 
-		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)
+		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || ontologyId: "+str(ontologyId)
 		
 		count+=1
 
-		query="INSERT INTO multiple_sensors(id,data,timestamp)VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\');"
+		query="INSERT INTO sensor_data(id,data,timestamp,networkid,ontologyid) VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\',\'"+str(cpuserial)+"\',\'"+str(ontologyId)+"\');"
 		print query
 		cur.execute(query)
 		db.commit()

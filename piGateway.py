@@ -30,14 +30,14 @@ ser = serial.Serial(
 )
 
 #create database object and connect
-db = MySQLdb.connect(host="eu-cdbr-azure-west-b.cloudapp.net", 
-                    user="bd4f86da652db2",
-                    passwd="95905cbf",
-                    db="methtesA9fvknZn4")
+db = MySQLdb.connect(host="eu-cdbr-azure-north-b.cloudapp.net", 
+                     user="b56834bde0c85e",
+                      passwd="87a230d7",
+                      db="makesensemain")
  
 
 cur = db.cursor() 
-cur.execute("TRUNCATE TABLE multiple_sensors;")
+cur.execute("TRUNCATE TABLE sensor_data;")
 
 count = 1;
 
@@ -58,6 +58,8 @@ while (True):
 		hardwareId = dataList[0]
 		data = dataList[2]
 		timestamp = dataList[4]
+		ontologyId = dataList[6]
+
 
 		#if first reading for a stamp, save timestamp stuff so can calculate its timestamp
 		if hardwareId not in timestamps:
@@ -72,8 +74,8 @@ while (True):
 		
 		piId = getserial()
 		count+=1
-		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || piId: "+piId
-		query="INSERT INTO multiple_sensors(id,data,timestamp,networkid)VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\',\'"+str(piId)+"\');"
+		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || piId: "+piId+" || ontologyId: "+str(ontologyId)
+		query="INSERT INTO sensor_data(id,data,timestamp,networkid,ontologyid) VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\',\'"+str(piId)+"\',\'"+str(ontologyId)+"\');"
 		print query
 		cur.execute(query)
 		db.commit()
