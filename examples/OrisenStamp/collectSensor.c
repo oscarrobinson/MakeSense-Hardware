@@ -61,6 +61,8 @@ static struct collect_conn tc;
 
 char * ID;
 
+char * ontologyID = "JayISCOOL";
+
 
 /*---------------------------------------------------------------------------*/
 PROCESS(example_collect_process, "Test collect process");
@@ -127,11 +129,14 @@ PROCESS_THREAD(example_collect_process, ev, data)
    char * idString = malloc(idStringLen * sizeof(char));
    sprintf(idString,"%s",ID);
 
-   //prepare the string to send
-   int numberOfExtraChars = 6;
-   char * stringToSend = malloc((timestampLen + dataLength + idStringLen +  numberOfExtraChars)*sizeof(char));
+   //get length of ontologyID
+   int ontologyIDLen = strlen(ontologyID);
 
-   sprintf(stringToSend,"%s X %s X %lu", idString,data, timestamp);
+   //prepare the string to send
+   int numberOfExtraChars = 9;
+   char * stringToSend = malloc((timestampLen + dataLength + idStringLen + ontologyIDLen +  numberOfExtraChars)*sizeof(char));
+
+   sprintf(stringToSend,"%s X %s X %lu X %s", idString,data, timestamp, ontologyID);
    
 
      printf("%s \n", stringToSend);
