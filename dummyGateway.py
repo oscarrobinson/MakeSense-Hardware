@@ -3,10 +3,10 @@ import time
 import string
 import random
 
-piId = "00000000da3e31f0"
-sensor1ID = "ab0f12e4ef0102f7"
-sensor2ID = "ab0f12e4efa5a269"
-sensor3ID = "ab0f12e4ef1214f7"
+piId = "00000000f01243e9"
+sensor1ID = "af0278fe920101fe"
+sensor2ID = "af0278fe019283fe"
+sensor3ID = "af0278fe912131415"
 sensor1ont = "1"
 sensor2ont = "1"
 sensor3ont = "2"
