@@ -1,0 +1,9 @@
+# For abc/unicast/trickle example
+#
+make projector_sink.upload 
+
+
+# For neighbour discovery 
+#
+make projector_neighbour.upload
+ant run -Dargs="/dev/ttyUSB1"

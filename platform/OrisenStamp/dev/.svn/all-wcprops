@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trac-svn/insentive/!svn/ver/241/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev
+END
+RTC.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev/RTC.c
+END
+kbi_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/241/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev/kbi_events.c
+END
+ff.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev/ff.c
+END
+io-pins.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev/io-pins.c
+END
+diskio.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev/diskio.c
+END
+uSDcard.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenStamp/dev/uSDcard.c
+END

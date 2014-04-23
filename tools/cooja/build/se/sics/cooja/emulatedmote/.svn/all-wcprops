@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/emulatedmote
+END
+Radio802154.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/emulatedmote/Radio802154.class
+END
+Radio802154PacketConverter.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/emulatedmote/Radio802154PacketConverter.class
+END
+RadioByte.class
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/emulatedmote/RadioByte.class
+END
+CRCCoder.class
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/emulatedmote/CRCCoder.class
+END

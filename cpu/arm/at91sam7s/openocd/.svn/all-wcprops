@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd
+END
+AT91SAM7x_init.script
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd/AT91SAM7x_init.script
+END
+openocd_flash
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd/openocd_flash
+END
+arm7_wig_flash.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd/arm7_wig_flash.cfg
+END
+openocd_reset
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd/openocd_reset
+END
+arm7_wig.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd/arm7_wig.cfg
+END
+arm7_wig_reset.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/arm/at91sam7s/openocd/arm7_wig_reset.cfg
+END

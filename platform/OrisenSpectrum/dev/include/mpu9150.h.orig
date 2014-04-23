@@ -1,0 +1,32 @@
+/*
+ * Copyright (c) 2013, Dominik Beste <dbeste@cs.ucl.ac.uk>
+ *
+ * Driver for the MPU9150 chip used on the OrisenSpectrum.
+ */
+
+#ifndef MPU9150_H_
+#define MPU9150_H_
+
+extern const struct sensors_sensor mpu9150_sensor;
+
+#define MPU9150_I2C_ADDR			((0b11010010)>>1)
+
+
+#define	MPU9150_PWR_MGMT_1			0x6B
+#define	MPU9150_PWR_MGMT_2			0x6C
+#define MPU9150_WHOAMI				0x75
+
+struct MPU9150_data {
+	uint32_t raw_acc_x;	// Raw reading
+	uint32_t raw_acc_y;	// Raw reading
+	uint32_t raw_acc_z;    // Raw reading
+};
+
+void mpu9150_init(void);
+void mpu9150_stop(void);
+void mpu9150_start(void);
+void mpu9150_get_data(uint8_t *buffer);
+void mpu9150_decode(struct MPU9150_data *const ba , uint8_t *buffer);
+void mpu9150_who_am_i(uint8_t *buffer);
+
+#endif /* MPU9150_H_ */

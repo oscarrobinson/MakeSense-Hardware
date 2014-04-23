@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sentilla-usb
+END
+contiki-sentilla-usb-platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sentilla-usb/contiki-sentilla-usb-platform.c
+END
+leds-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sentilla-usb/leds-arch.c
+END
+platform-sentilla-usb-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sentilla-usb/platform-sentilla-usb-conf.h
+END
+Makefile.sentilla-usb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/sentilla-usb/Makefile.sentilla-usb
+END

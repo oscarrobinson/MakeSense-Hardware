@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenSpectrum
+END
+Makefile.OrisenSpectrum
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenSpectrum/Makefile.OrisenSpectrum
+END
+contiki-spectrum-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenSpectrum/contiki-spectrum-main.c
+END
+dummy-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenSpectrum/dummy-sensor.c
+END
+cfs-fat.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenSpectrum/cfs-fat.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/OrisenSpectrum/contiki-conf.h
+END

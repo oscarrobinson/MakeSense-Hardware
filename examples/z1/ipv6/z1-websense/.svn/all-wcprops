@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense
+END
+wget.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/wget.c
+END
+wget.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/wget.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/README
+END
+example-sky-websense.csc
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/example-sky-websense.csc
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/project-conf.h
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/Makefile.target
+END
+z1-websense.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/z1-websense.c
+END
+websense-remote.c
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/z1/ipv6/z1-websense/websense-remote.c
+END

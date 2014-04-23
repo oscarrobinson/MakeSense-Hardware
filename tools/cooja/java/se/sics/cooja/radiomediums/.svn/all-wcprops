@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums
+END
+AbstractRadioMedium.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/AbstractRadioMedium.java
+END
+DirectedGraphMedium.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/DirectedGraphMedium.java
+END
+UDGMConstantLoss.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/UDGMConstantLoss.java
+END
+DGRMDestinationRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/DGRMDestinationRadio.java
+END
+UDGM.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/UDGM.java
+END
+SilentRadioMedium.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/SilentRadioMedium.java
+END
+DestinationRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/java/se/sics/cooja/radiomediums/DestinationRadio.java
+END

@@ -1,0 +1,249 @@
+/*
+ * bmp085.c
+ *
+ *  Created on: 8 Jul 2011
+ *      Author:  Graeme McPhillips
+ *
+ *
+ */
+
+#include <stdio.h>
+#include "i2c.h"
+#include "include/bmp085.h"
+
+int32_t tempb5;
+
+void bmp085_get_calib(struct bmp085_calib *buffer) {
+
+	uint8_t request = BMP085_AC1_MSB ;
+
+	i2c_transmitinit( BMP085_I2C_ADDR, 1, &request ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+	i2c_receiveinit( BMP085_I2C_ADDR, BMP085_NUM_CALIB, (uint8_t *) buffer ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+}
+
+void bmp085_decode_calib(struct bmp085_calib *pres_calib, uint8_t *buffer){
+
+	pres_calib->ac1 = ((buffer[5]<<8) | buffer[6]) ;
+	pres_calib->ac2 = ((buffer[7]<<8) | buffer[8]) ;
+	pres_calib->ac3 = ((buffer[9]<<8) | buffer[10]) ;
+	pres_calib->ac4 = ((buffer[11]<<8) | buffer[12]) ;
+	pres_calib->ac5 = ((buffer[13]<<8) | buffer[14]) ;
+	pres_calib->ac6 = ((buffer[15]<<8) | buffer[16]) ;
+	pres_calib->b1 = ((buffer[17]<<8) | buffer[18]) ;
+	pres_calib->b2 = ((buffer[19]<<8) | buffer[20]) ;
+	pres_calib->mb = ((buffer[21]<<8) | buffer[22]) ;
+	pres_calib->mc = ((buffer[23]<<8) | buffer[24]) ;
+	pres_calib->md = ((buffer[25]<<8) | buffer[26]) ;
+
+}
+
+void bmp085_trigger_data(uint8_t data) {
+
+	uint8_t request[] = {BMP085_CTRL_REG, data} ;
+
+	i2c_transmitinit( BMP085_I2C_ADDR, 2, request ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+}
+
+
+void bmp085_get_data(uint8_t data, uint8_t *buffer) {
+
+	uint8_t request_MSB = BMP085_DATA_MSB ;
+
+	i2c_transmitinit( BMP085_I2C_ADDR, 1, &request_MSB ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+	if (data == BMP085_CTRL_TEMP){
+		i2c_receiveinit( BMP085_I2C_ADDR, 3, &buffer[5] ) ;
+		while(!i2c_transferred()) /* Wait for transfer */ ;
+	}
+	else{
+		i2c_receiveinit( BMP085_I2C_ADDR, 3, &buffer[8] ) ;
+		while(!i2c_transferred()) /* Wait for transfer */ ;
+
+		switch (data) {
+				case BMP085_CTRL_PRES0:
+					buffer[11] = 0;
+					break ;
+				case BMP085_CTRL_PRES1:
+					buffer[11] = 1;
+					break ;
+				case BMP085_CTRL_PRES2:
+					buffer[11] = 2;
+					break ;
+				case BMP085_CTRL_PRES3:
+					buffer[11] = 3;
+					break ;
+		}
+	}
+
+}
+
+
+void bmp085_decode_temp(struct bmp085_calib *pres_calib, struct bmp085_data *pres_data, uint8_t *buffer) {
+
+	int32_t x1,x2,ut;
+
+	ut = (buffer[5]<<8) + buffer[6];
+	x1 = ((ut - pres_calib->ac6) * pres_calib->ac5) >> 15;
+	x2 = (pres_calib->mc << 11) / (x1 + pres_calib->md);
+	pres_data->b5 = x1 + x2;
+
+	pres_data->temp = ((pres_data->b5 + 8) >> 4);
+
+}
+
+
+void bmp085_decode_pressure(struct bmp085_calib *pres_calib, struct bmp085_data *pres_data, uint8_t *buffer) {
+
+	int32_t x1,x2,x3,b3,b6,up;
+	uint32_t b4, b7;
+
+	up = ((buffer[8] << 16) + (buffer[9] << 8) + buffer[10]) >> (8-buffer[11]);
+
+	b6 = pres_data->b5 - 4000;
+	//*****calculate B3************
+	x1 = (b6*b6) >> 12;
+	x1 *= pres_calib->b2;
+	x1 >>=11;
+
+	x2 = (pres_calib->ac2*b6);
+	x2 >>=11;
+
+	x3 = x1 +x2;
+
+	b3 = (((((int32_t)pres_calib->ac1 )*4 + x3) << buffer[11] ) + 2) >> 2;
+
+	//*****calculate B4************
+	x1 = (pres_calib->ac3* b6) >> 13;
+	x2 = (pres_calib->b1 * ((b6*b6) >> 12) ) >> 16;
+	x3 = ((x1 + x2) + 2) >> 2;
+	b4 = (pres_calib->ac4 * (uint32_t) (x3 + 32768)) >> 15;
+
+	b7 = ((uint32_t)(up - b3) * (50000>>buffer[11]));
+	if (b7 < 0x80000000)
+	{
+		pres_data->pressure = (b7 << 1) / b4;
+	}
+	else
+	{
+		pres_data->pressure = (b7 / b4) << 1;
+	}
+
+	x1 = pres_data->pressure >> 8;
+	x1 *= x1;
+	x1 = (x1 * 3038) >> 16;
+	x2 = (pres_data->pressure * -7357) >> 16;
+	pres_data->pressure += (x1 + x2 + 3791) >> 4;	// pressure in Pa
+
+}
+
+///////////////vshum//////////////////////
+uint16_t bmp085_get_temp(void) {
+	uint16_t result16 = 0;
+	uint8_t buffer[]={0,0};
+
+	bmp085_trigger_data(BMP085_CTRL_TEMP);
+
+	clock_delay_ms(5);
+
+	uint8_t request_MSB = BMP085_DATA_MSB ;
+
+	i2c_transmitinit( BMP085_I2C_ADDR, 1, &request_MSB ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+	i2c_receiveinit( BMP085_I2C_ADDR, 2, buffer ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+	result16 = buffer[0] + buffer[1]<<8;
+	return result16;
+}
+
+int32_t bmp085_cal_temp(uint16_t ut, struct bmp085_calib *pres_calib) {
+
+	int32_t x1,x2, uut;
+	int32_t b5, temp_data;
+	uut = (int32_t)ut;
+
+	x1 = ((uut - pres_calib->ac6) * pres_calib->ac5) >> 15;
+	x2 = (pres_calib->mc << 11) / (x1 + pres_calib->md);
+	b5 = x1 + x2;
+	temp_data = ((b5 + 8) >> 4);
+
+	tempb5=b5;
+
+	printf("calib B %d,%d, %d, %d, %d, %d\r\n", pres_calib->ac5, pres_calib->ac6, pres_calib->mc, pres_calib->md, b5, temp_data);
+	return temp_data;
+}
+
+
+uint32_t bmp085_get_hires_press(void) {
+	uint32_t result32 = 0;
+	uint8_t buffer[]={0,0};
+
+	bmp085_trigger_data(BMP085_ULTRA_HIGH_RES);
+
+	clock_delay_ms(26);
+
+	uint8_t request_MSB = BMP085_DATA_MSB ;
+
+	i2c_transmitinit( BMP085_I2C_ADDR, 1, &request_MSB ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+	i2c_receiveinit( BMP085_I2C_ADDR, 3, buffer ) ;
+	while(!i2c_transferred()) /* Wait for transfer */ ;
+
+	result32 = ((buffer[8] << 16) + (buffer[9] << 8) + buffer[10]);
+	return result32;
+}
+
+uint32_t bmp085_cal_pressure(uint32_t up, struct bmp085_calib *pres_calib) {
+
+	int32_t x1,x2,x3,b3,b6, b5;
+	uint32_t b4, b7, pres_data;
+	uint8_t oss;
+
+	b5 = tempb5;
+	up = up >> (8-oss);
+	b6 = b5 - 4000;
+	//*****calculate B3************
+	x1 = (b6*b6) >> 12;
+	x1 *= pres_calib->b2;
+	x1 >>=11;
+
+	x2 = (pres_calib->ac2*b6);
+	x2 >>=11;
+
+	x3 = x1 +x2;
+
+	b3 = (((((int32_t)pres_calib->ac1 )*4 + x3) << oss ) + 2) >> 2;
+
+	//*****calculate B4************
+	x1 = (pres_calib->ac3* b6) >> 13;
+	x2 = (pres_calib->b1 * ((b6*b6) >> 12) ) >> 16;
+	x3 = ((x1 + x2) + 2) >> 2;
+	b4 = (pres_calib->ac4 * (uint32_t) (x3 + 32768)) >> 15;
+
+	b7 = ((uint32_t)(up - b3) * (50000>>oss));
+	if (b7 < 0x80000000)
+	{
+		pres_data = (b7 << 1) / b4;
+	}
+	else
+	{
+		pres_data = (b7 / b4) << 1;
+	}
+
+	x1 = pres_data >> 8;
+	x1 *= x1;
+	x1 = (x1 * 3038) >> 16;
+	x2 = (pres_data * -7357) >> 16;
+	pres_data += (x1 + x2 + 3791) >> 4;	// pressure in Pa
+	return pres_data;
+
+}
+

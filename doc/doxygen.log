@@ -1,0 +1,567 @@
+/home/user/prj-Meth13/core/net/simple-udp.h:8: warning: missing title after \defgroup simple-udp
+/home/user/prj-Meth13/core/net/uip6.c:2301: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl-dag.c:1224: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl-ext-header.c:297: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl-icmp6.c:837: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl-of-etx.c:238: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl-of0.c:165: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl-timers.c:238: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rpl/rpl.c:227: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/mac/frame802154.h:171: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/net/rime/broadcast-announcement.h:7: warning: missing title after \defgroup rimebroadcastannouncement
+/home/user/prj-Meth13/core/net/rime/polite-announcement.h:7: warning: missing title after \defgroup rimepoliteannouncement
+/home/user/prj-Meth13/core/sys/rtimer.c:110: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/sys/subprocess.h:72: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/dev/leds.h:98: warning: end of file while inside a group
+
+/home/user/prj-Meth13/core/lib/ringbuf.h:134: warning: end of file while inside a group
+
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/codeprop-otf.c:525: warning: end of file while inside a group
+
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:1364: warning: end of file while inside a group
+
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:44: Warning: include file hal/micro/cortexm3/token-manufacturing.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:102: Warning: include file hal/micro/cortexm3/token-manufacturing.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
+/home/user/prj-Meth13/cpu/msp430/f5xxx/clock.c:145: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/cpu/msp430/f5xxx/clock.c:147: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/cpu/msp430/f1xxx/clock.c:148: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/cpu/msp430/f1xxx/clock.c:150: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-lcd-interface/raven-lcd.c:496: warning: end of file while inside a group
+
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:80: warning: end of file while inside a group
+
+/home/user/prj-Meth13/platform/esb/dev/tr1001-gcr.c:790: warning: end of file while inside a group
+
+/home/user/prj-Meth13/platform/esb/dev/tr1001.c:776: warning: end of file while inside a group
+
+/home/user/prj-Meth13/platform/avr-ravenusb/rng.c:25: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-lcd-interface/raven-lcd.c:488: warning: end of file while inside a group
+
+/home/user/prj-Meth13/platform/exp5438/clock.c:146: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/platform/exp5438/clock.c:148: warning: preprocessing issue while doing constant expression evaluation: syntax error
+/home/user/prj-Meth13/core/sys/lc.h:55: warning: the name `lc.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/core/sys/lc.h
+   /home/user/prj-Meth13/cpu/6502/sys/lc.h
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/mc1322x/lib/printf.c:37: warning: the name `printf-stdarg.c' supplied as the second argument in the \file statement is not an input file
+/home/user/prj-Meth13/cpu/stm32w108/hal/error.h:2: warning: the name `error.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/cpu/6502/lib/error.h
+   /home/user/prj-Meth13/cpu/stm32w108/hal/error.h
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/mems.h:1: warning: the name `mems.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/cpu/stm32w108/hal/micro/mems.h
+   /home/user/prj-Meth13/platform/mbxxx/dev/mems.h
+   /home/user/prj-Meth13/platform/mb851/dev/mems.h
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/micro-common.h:1: warning: the name `micro-common.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/cpu/stm32w108/hal/micro/micro-common.h
+   /home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/adc.c:1: warning: the name `adc.c' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/cpu/mc1322x/tests/adc.c
+   /home/user/prj-Meth13/cpu/mc1322x/lib/adc.c
+   /home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/adc.c
+   /home/user/prj-Meth13/cpu/mc1322x.orig/tests/adc.c
+   /home/user/prj-Meth13/cpu/mc1322x.orig/lib/adc.c
+   /home/user/prj-Meth13/platform/msb430/dev/adc.c
+   /home/user/prj-Meth13/platform/micaz/dev/adc.c
+   /home/user/prj-Meth13/platform/iris/dev/adc.c
+   /home/user/prj-Meth13/platform/avr-ravenlcd/adc.c
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mems.c:1: warning: the name `mems.c' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mems.c
+   /home/user/prj-Meth13/platform/mbxxx/dev/mems.c
+   /home/user/prj-Meth13/platform/mb851/dev/mems.c
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/stm32w108/board.h:1: warning: the name `board.h' supplied as the second argument in the \file statement matches the following input files:
+   /home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/stm32w108/board.h
+   /home/user/prj-Meth13/cpu/mc1322x.orig/board/board.h
+Please use a more specific name by including a (larger) part of the path!
+/home/user/prj-Meth13/cpu/mc1322x.orig/lib/printf.c:37: warning: the name `printf-stdarg.c' supplied as the second argument in the \file statement is not an input file
+/home/user/prj-Meth13/platform/msb430/dev/msb430-uart1.c:44: warning: the name `ScatterWeb.Uart.c' supplied as the second argument in the \file statement is not an input file
+/home/user/prj-Meth13/platform/msb430/dev/msb430-uart1.h:55: warning: the name `Header' supplied as the second argument in the \file statement is not an input file
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:494: warning: the name `lanc111.h' supplied as the argument of the \class, \struct, \union, or \include command is not an input file
+/home/user/prj-Meth13/core/net/rpl/rpl-of0.c:49: warning: no matching file member found for 
+static void reset(rpl_dag *)Possible candidates:
+  static void reset(rpl_dag_t *)
+  void reset(struct ftdi_context *ftdic, const struct layout *l)
+  void reset(struct ftdi_context *ftdic, const struct layout *l)
+  void reset()
+  static uint8_t reset(void)
+  static uint8_t reset(void)
+
+/home/user/prj-Meth13/core/net/rpl/rpl-of0.c:71: warning: no matching file member found for 
+static void reset(rpl_dag *dag)Possible candidates:
+  static void reset(rpl_dag_t *)
+  void reset(struct ftdi_context *ftdic, const struct layout *l)
+  void reset(struct ftdi_context *ftdic, const struct layout *l)
+  void reset()
+  static uint8_t reset(void)
+  static uint8_t reset(void)
+
+/home/user/prj-Meth13/core/net/rime/polite-announcement.c:158: warning: no matching file member found for 
+static void send_timer(void *ptr)Possible candidates:
+  static void send_timer(void *ptr)
+  static void send_timer(void *ptr)
+
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:1121: warning: documented function `NicRxLanc' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/params.c:81: warning: documented function `const uint8_t default_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/params.c:82: warning: documented function `const uint8_t default_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/params.c:108: warning: documented function `uint8_t eemem_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/params.c:109: warning: documented function `uint8_t eemem_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/params.c:113: warning: documented function `uint8_t eemem_channel' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:76: warning: documented function `static const char tcp_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:77: warning: documented function `static const char proc_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:78: warning: documented function `static const char sensor_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:79: warning: documented function `static const char adrs_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:80: warning: documented function `static const char nbrs_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:81: warning: documented function `static const char rtes_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:94: warning: no matching file member found for 
+static const char running()Possible candidates:
+  static struct mtarch_thread * running
+  static struct mtarch_thread * running
+  static const char running[]
+
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:95: warning: documented function `static const char called' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:291: warning: documented function `static const char httpd_cgi_addrf' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:292: warning: documented function `static const char httpd_cgi_addrb' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-cgi.c:293: warning: documented function `static const char httpd_cgi_addrn' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:8: warning: documented function `const uint8_t default_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:9: warning: documented function `const uint8_t default_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:11: warning: documented function `uint8_t eemem_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:12: warning: documented function `uint8_t eemem_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:70: warning: documented function `const char data_favicon_png' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:91: warning: documented function `const char data_files_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:98: warning: documented function `const char data_footer_html' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:182: warning: documented function `const char data_header_html' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:314: warning: documented function `const char data_process_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:321: warning: documented function `const char data_robots_txt' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:333: warning: documented function `const char data_sensor_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:357: warning: documented function `const char data_status_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:567: warning: documented function `const char data_style_css' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:594: warning: documented function `const char data_tcp_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:618: warning: documented function `const char data_upload_html' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:633: warning: documented function `struct httpd_fsdata_file file_favicon_png' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:634: warning: documented function `struct httpd_fsdata_file file_files_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:635: warning: documented function `struct httpd_fsdata_file file_footer_html' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:636: warning: documented function `struct httpd_fsdata_file file_header_html' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:638: warning: documented function `struct httpd_fsdata_file file_process_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:639: warning: documented function `struct httpd_fsdata_file file_robots_txt' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:640: warning: documented function `struct httpd_fsdata_file file_sensor_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:641: warning: documented function `struct httpd_fsdata_file file_status_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:642: warning: documented function `struct httpd_fsdata_file file_style_css' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:643: warning: documented function `struct httpd_fsdata_file file_tcp_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fsdata.c:644: warning: documented function `struct httpd_fsdata_file file_upload_html' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:293: warning: documented function `const char httpd_content' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:294: warning: documented function `const char httpd_crlf' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:312: warning: documented function `const char httpd_mime_htm' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:313: warning: documented function `const char httpd_mime_css' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:314: warning: documented function `const char httpd_mime_png' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:315: warning: documented function `const char httpd_mime_gif' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:316: warning: documented function `const char httpd_mime_jpg' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:317: warning: documented function `const char httpd_mime_txt' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:318: warning: documented function `const char httpd_mime_bin' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:319: warning: documented function `const char httpd_jpg' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:320: warning: documented function `const char httpd_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:355: warning: documented function `const char httpd_404fn' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:356: warning: documented function `const char httpd_404notf' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:357: warning: documented function `const char httpd_200ok' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd.c:387: warning: documented function `const char httpd_ref' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fs/makefsdata.h:5: warning: documented function `const uint8_t default_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fs/makefsdata.h:6: warning: documented function `const uint8_t default_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fs/makefsdata.h:8: warning: documented function `uint8_t eemem_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-atmega128rfa1/apps/raven-webserver/httpd-fs/makefsdata.h:9: warning: documented function `uint8_t eemem_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/esb/dev/tr1001.c:160: warning: no matching file member found for 
+static int prepare_packet(const void *data, unsigned short len)Possible candidates:
+  static int prepare_packet(const void *data, unsigned short len)
+  static int prepare_packet(const void *data, unsigned short len)
+
+/home/user/prj-Meth13/platform/esb/dev/tr1001.c:161: warning: no matching file member found for 
+static int transmit_packet(unsigned short len)Possible candidates:
+  static int transmit_packet(unsigned short len)
+  static int transmit_packet(unsigned short len)
+
+/home/user/prj-Meth13/platform/esb/dev/tr1001.c:162: warning: no matching file member found for 
+static int receiving_packet(void)Possible candidates:
+  static int receiving_packet(void)
+  static int receiving_packet(void)
+  static int receiving_packet(void)
+  static int receiving_packet(void)
+  static int receiving_packet(void)
+
+/home/user/prj-Meth13/platform/esb/dev/tr1001.c:163: warning: no matching file member found for 
+static int pending_packet(void)Possible candidates:
+  static int pending_packet(void)
+  static int pending_packet(void)
+  static int pending_packet(void)
+  static int pending_packet(void)
+  static int pending_packet(void)
+  static int pending_packet(void)
+  static int pending_packet(void)
+
+/home/user/prj-Meth13/platform/esb/dev/tr1001.c:164: warning: no matching file member found for 
+static int channel_clear(void)Possible candidates:
+  static int channel_clear(void)
+  static int channel_clear(void)
+  static int channel_clear(void)
+  static int channel_clear(void)
+  static int channel_clear(void)
+
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/mpu9150_i2cdevlib.c:49: warning: documented function `MPU9150::MPU9150' was not declared or defined.
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/mpu9150_i2cdevlib.c:59: warning: documented function `MPU9150::MPU9150' was not declared or defined.
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/mpu9150_i2cdevlib.c:2412: warning: no matching class member found for 
+  void MPU9150::reset()
+
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/include/mpu9150_i2cdevlib.c:2420: warning: no matching class member found for 
+  void MPU9150::reset()
+
+/home/user/prj-Meth13/platform/avr-ravenusb/cdc_task.c:121: warning: documented function `const char txtenthsdigit' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenusb/httpd-simple-avr.c:244: warning: documented function `const char TOP1' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenusb/httpd-simple-avr.c:245: warning: documented function `const char TOP2' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenusb/httpd-simple-avr.c:246: warning: documented function `const char BOTTOM' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenusb/httpd-simple-avr.c:322: warning: documented function `const char NOT_FOUND' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/params.c:81: warning: documented function `const uint8_t default_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/params.c:82: warning: documented function `const uint8_t default_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/params.c:108: warning: documented function `uint8_t eemem_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/params.c:109: warning: documented function `uint8_t eemem_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/params.c:113: warning: documented function `uint8_t eemem_channel' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:75: warning: documented function `static const char tcp_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:76: warning: documented function `static const char proc_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:77: warning: documented function `static const char sensor_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:78: warning: documented function `static const char adrs_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:79: warning: documented function `static const char nbrs_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:80: warning: documented function `static const char rtes_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:93: warning: no matching file member found for 
+static const char running()Possible candidates:
+  static struct mtarch_thread * running
+  static struct mtarch_thread * running
+  static const char running[]
+
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:94: warning: documented function `static const char called' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:292: warning: documented function `static const char httpd_cgi_addrf' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:293: warning: documented function `static const char httpd_cgi_addrb' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-cgi.c:294: warning: documented function `static const char httpd_cgi_addrn' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:293: warning: documented function `const char httpd_content' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:294: warning: documented function `const char httpd_crlf' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:310: warning: documented function `const char httpd_mime_htm' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:311: warning: documented function `const char httpd_mime_css' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:312: warning: documented function `const char httpd_mime_png' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:313: warning: documented function `const char httpd_mime_gif' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:314: warning: documented function `const char httpd_mime_jpg' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:315: warning: documented function `const char httpd_mime_txt' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:316: warning: documented function `const char httpd_mime_bin' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:317: warning: documented function `const char httpd_jpg' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:318: warning: documented function `const char httpd_shtml' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:353: warning: documented function `const char httpd_404fn' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:354: warning: documented function `const char httpd_404notf' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:355: warning: documented function `const char httpd_200ok' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd.c:385: warning: documented function `const char httpd_ref' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-fs/makefsdata.h:5: warning: documented function `const uint8_t default_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-fs/makefsdata.h:6: warning: documented function `const uint8_t default_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-fs/makefsdata.h:8: warning: documented function `uint8_t eemem_server_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-raven/apps/raven-webserver/httpd-fs/makefsdata.h:9: warning: documented function `uint8_t eemem_domain_name' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenlcd/beep.c:136: warning: documented function `static uint8_t axel' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenlcd/beep.c:137: warning: documented function `static uint8_t sandman1' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenlcd/beep.c:138: warning: documented function `static uint8_t sandman2' was not declared or defined.
+/home/user/prj-Meth13/platform/avr-ravenlcd/beep.c:139: warning: documented function `static uint8_t furelise' was not declared or defined.
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:189: warning: explicit link request to 'SLEEPMODE_WAKETIMER' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:111: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:130: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:67: warning: Found unknown command `\description'
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/include/amy_6m.h:190: warning: explicit link request to 'GPS_UBX_RXM_RAW_t' could not be resolved
+/home/user/prj-Meth13/core/net/neighbor-info.h:71: warning: argument 'status' of command @param is not found in the argument list of neighbor_info_packet_received(void)
+/home/user/prj-Meth13/core/net/neighbor-info.h:71: warning: argument 'numtx' of command @param is not found in the argument list of neighbor_info_packet_received(void)
+/home/user/prj-Meth13/core/net/neighbor-info.h:71: warning: argument 'status' of command @param is not found in the argument list of neighbor_info_packet_received(void)
+/home/user/prj-Meth13/core/net/neighbor-info.h:71: warning: argument 'numtx' of command @param is not found in the argument list of neighbor_info_packet_received(void)
+/home/user/prj-Meth13/core/net/uip.h:1791: warning: unable to resolve reference to `uip_buf' for \ref command
+/home/user/prj-Meth13/core/sys/cc.h:132: warning: explicit link request to 'defined' could not be resolved
+/home/user/prj-Meth13/platform/mbxxx/dev/leds-arch.c:70: warning: argument 'io' of command @param is not found in the argument list of halGpioGetPxIN(int32u gpio)
+/home/user/prj-Meth13/platform/mbxxx/dev/leds-arch.c:70: warning: The following parameters of halGpioGetPxIN(int32u gpio) are not documented:
+  parameter 'gpio'
+/home/user/prj-Meth13/platform/mbxxx/dev/leds-arch.c:53: warning: argument 'io' of command @param is not found in the argument list of halGpioGetPxOUT(int32u gpio)
+/home/user/prj-Meth13/platform/mbxxx/dev/leds-arch.c:53: warning: The following parameters of halGpioGetPxOUT(int32u gpio) are not documented:
+  parameter 'gpio'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/nvm.h:3: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/nvm.h:4: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/uart.h:24: warning: The following parameters of uartInit(int32u baudrate, int8u databits, SerialParity parity, int8u stopbits) are not documented:
+  parameter 'stopbits'
+/home/user/prj-Meth13/cpu/stm32w108/simplemac/include/phy-library.h:311: warning: explicit link request to 'ST_SUCCESS' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/simplemac/include/phy-library.h:313: warning: explicit link request to 'ST_PHY_ACK_RECEIVED' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/simplemac/include/phy-library.h:314: warning: explicit link request to 'ST_MAC_NO_ACK_RECEIVED' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/simplemac/include/phy-library.h:315: warning: explicit link request to 'ST_PHY_TX_CCA_FAIL' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/simplemac/include/phy-library.h:317: warning: explicit link request to 'ST_PHY_TX_UNDERFLOW' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/simplemac/include/phy-library.h:319: warning: explicit link request to 'ST_PHY_TX_INCOMPLETE' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:111: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:130: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:111: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:130: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:67: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:97: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:111: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:130: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:83: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:86: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: argument '_ADDRESS' of command @param is not found in the argument list of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...)
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:93: warning: explicit link request to 'name::::_ADDRESS' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:102: warning: explicit link request to '_TYPE' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:110: warning: explicit link request to 'name' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: The following parameters of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...) are not documented:
+  parameter 'creator'
+  parameter 'iscnt'
+  parameter 'isidx'
+  parameter '...'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:83: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:86: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: argument '_ADDRESS' of command @param is not found in the argument list of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...)
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:93: warning: explicit link request to 'name::::_ADDRESS' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:102: warning: explicit link request to '_TYPE' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:110: warning: explicit link request to 'name' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: The following parameters of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...) are not documented:
+  parameter 'creator'
+  parameter 'iscnt'
+  parameter 'isidx'
+  parameter '...'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:83: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:86: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: argument '_ADDRESS' of command @param is not found in the argument list of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...)
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:93: warning: explicit link request to 'name::::_ADDRESS' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:102: warning: explicit link request to '_TYPE' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:110: warning: explicit link request to 'name' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: The following parameters of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...) are not documented:
+  parameter 'creator'
+  parameter 'iscnt'
+  parameter 'isidx'
+  parameter '...'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:18: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:83: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:86: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: argument '_ADDRESS' of command @param is not found in the argument list of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...)
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:93: warning: explicit link request to 'name::::_ADDRESS' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:102: warning: explicit link request to '_TYPE' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:110: warning: explicit link request to 'name' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:80: warning: The following parameters of TOKEN_MFG(name, creator, iscnt, isidx, type, arraysize,...) are not documented:
+  parameter 'creator'
+  parameter 'iscnt'
+  parameter 'isidx'
+  parameter '...'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:67: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:97: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:111: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/mfg-token.h:130: warning: Found unknown command `\description'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:189: warning: explicit link request to 'SLEEPMODE_WAKETIMER' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/uart.h:24: warning: The following parameters of uartInit(int32u baudrate, int8u databits, SerialParity parity, int8u stopbits) are not documented:
+  parameter 'stopbits'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:189: warning: explicit link request to 'SLEEPMODE_WAKETIMER' could not be resolved
+/home/user/prj-Meth13/platform/cooja/contiki-cooja-main.c:352: warning: argument 'start' of command @param is not found in the argument list of Java_se_sics_cooja_corecomm_CLASSNAME_getMemory(JNIEnv *env, jobject obj, jint rel_addr, jint length, jbyteArray mem_arr)
+/home/user/prj-Meth13/platform/cooja/contiki-cooja-main.c:352: warning: The following parameters of Java_se_sics_cooja_corecomm_CLASSNAME_getMemory(JNIEnv *env, jobject obj, jint rel_addr, jint length, jbyteArray mem_arr) are not documented:
+  parameter 'env'
+  parameter 'obj'
+  parameter 'rel_addr'
+  parameter 'mem_arr'
+/home/user/prj-Meth13/platform/cooja/contiki-cooja-main.c:378: warning: argument 'start' of command @param is not found in the argument list of Java_se_sics_cooja_corecomm_CLASSNAME_setMemory(JNIEnv *env, jobject obj, jint rel_addr, jint length, jbyteArray mem_arr)
+/home/user/prj-Meth13/platform/cooja/contiki-cooja-main.c:378: warning: The following parameters of Java_se_sics_cooja_corecomm_CLASSNAME_setMemory(JNIEnv *env, jobject obj, jint rel_addr, jint length, jbyteArray mem_arr) are not documented:
+  parameter 'env'
+  parameter 'obj'
+  parameter 'rel_addr'
+/home/user/prj-Meth13/platform/OrisenPrime/dev/bmp085.c:267: warning: argument 'ut' of command @param is not found in the argument list of bmp085_get_pressure(unsigned long up)
+/home/user/prj-Meth13/platform/OrisenPrime/dev/bmp085.c:267: warning: The following parameters of bmp085_get_pressure(unsigned long up) are not documented:
+  parameter 'up'
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:366: warning: argument 'bmp085_t' of command @param is not found in the argument list of bmp085_init(bmp085_t *bmp085)
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:366: warning: The following parameters of bmp085_init(bmp085_t *bmp085) are not documented:
+  parameter 'bmp085'
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:78: warning: explicit link request to 'define' could not be resolved
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:85: warning: unable to resolve reference to `BMP085_WR_FUNC_PTR' for \ref command
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:85: warning: unable to resolve reference to `BMP085_RD_FUNC_PTR' for \ref command
+/home/user/prj-Meth13/platform/OrisenPrime/dev/bmp085.c:267: warning: argument 'ut' of command @param is not found in the argument list of bmp085_get_pressure(unsigned long up)
+/home/user/prj-Meth13/platform/OrisenPrime/dev/bmp085.c:267: warning: The following parameters of bmp085_get_pressure(unsigned long up) are not documented:
+  parameter 'up'
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:366: warning: argument 'bmp085_t' of command @param is not found in the argument list of bmp085_init(bmp085_t *bmp085)
+/home/user/prj-Meth13/platform/OrisenPrime/dev/include/bmp085.h:366: warning: The following parameters of bmp085_init(bmp085_t *bmp085) are not documented:
+  parameter 'bmp085'
+/home/user/prj-Meth13/core/net/uip.h:993: warning: argument 'dest' of command @param is not found in the argument list of uip_ipaddr_cmp(addr1, addr2)
+/home/user/prj-Meth13/core/net/uip.h:993: warning: argument 'src' of command @param is not found in the argument list of uip_ipaddr_cmp(addr1, addr2)
+/home/user/prj-Meth13/core/net/uip.h:1073: warning: argument 'addr' of command @param is not found in the argument list of uip_ipaddr_mask(dest, src, mask)
+/home/user/prj-Meth13/core/net/uip.h:1073: warning: argument 'netaddr' of command @param is not found in the argument list of uip_ipaddr_mask(dest, src, mask)
+/home/user/prj-Meth13/core/net/uip.h:1073: warning: argument 'netmask' of command @param is not found in the argument list of uip_ipaddr_mask(dest, src, mask)
+/home/user/prj-Meth13/core/net/rime/announcement.h:131: warning: The following parameters of announcement_set_value(struct announcement *a, uint16_t value) are not documented:
+  parameter 'value'
+/home/user/prj-Meth13/core/net/rime/ipolite.h:155: warning: unexpected token TK_EOF as the argument of ref
+/home/user/prj-Meth13/core/net/rime/polite.h:150: warning: unexpected token TK_EOF as the argument of ref
+/home/user/prj-Meth13/core/sys/clock.h:22: warning: unable to resolve reference to `trimer' for \ref command
+/home/user/prj-Meth13/core/sys/clock.h:126: warning: argument 'dt' of command @param is not found in the argument list of clock_delay_usec(uint16_t len)
+/home/user/prj-Meth13/core/sys/clock.h:126: warning: The following parameters of clock_delay_usec(uint16_t len) are not documented:
+  parameter 'len'
+/home/user/prj-Meth13/core/sys/clock.h:119: warning: argument 't' of command @param is not found in the argument list of clock_wait(clock_time_t i)
+/home/user/prj-Meth13/core/sys/clock.h:119: warning: The following parameters of clock_wait(clock_time_t i) are not documented:
+  parameter 'i'
+/home/user/prj-Meth13/core/sys/compower.h:127: warning: unable to resolve reference to `packetbufattr' for \ref command
+/home/user/prj-Meth13/core/sys/compower.h:117: warning: unable to resolve reference to `packetbufattr' for \ref command
+/home/user/prj-Meth13/core/sys/dsc.h:98: warning: argument 'initfunc' of command @param is not found in the argument list of DSC(dscname, description, prgname, process, icon)
+/home/user/prj-Meth13/core/sys/dsc.h:98: warning: The following parameters of DSC(dscname, description, prgname, process, icon) are not documented:
+  parameter 'process'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-arch-otf.h:73: warning: The following parameters of elfloader_arch_relocate(int input_fd, struct elfloader_output *output, unsigned int sectionoffset, char *sectionaddr, struct elf32_rela *rela, char *addr) are not documented:
+  parameter 'input_fd'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:171: warning: argument 'input' of command @param is not found in the argument list of elfloader_allocate_segment(struct elfloader_output *output, unsigned int type, int size)
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:171: warning: The following parameters of elfloader_allocate_segment(struct elfloader_output *output, unsigned int type, int size) are not documented:
+  parameter 'output'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:197: warning: argument 'input' of command @param is not found in the argument list of elfloader_end_segment(struct elfloader_output *output)
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:197: warning: The following parameters of elfloader_end_segment(struct elfloader_output *output) are not documented:
+  parameter 'output'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:260: warning: argument 'input' of command @param is not found in the argument list of elfloader_load(int input_fd, struct elfloader_output *output)
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:260: warning: The following parameters of elfloader_load(int input_fd, struct elfloader_output *output) are not documented:
+  parameter 'input_fd'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:216: warning: argument 'input' of command @param is not found in the argument list of elfloader_segment_offset(struct elfloader_output *output)
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:216: warning: The following parameters of elfloader_segment_offset(struct elfloader_output *output) are not documented:
+  parameter 'output'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:185: warning: argument 'input' of command @param is not found in the argument list of elfloader_start_segment(struct elfloader_output *output, unsigned int type, void *addr, int size)
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:185: warning: The following parameters of elfloader_start_segment(struct elfloader_output *output, unsigned int type, void *addr, int size) are not documented:
+  parameter 'output'
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:205: warning: argument 'input' of command @param is not found in the argument list of elfloader_write_segment(struct elfloader_output *output, const char *buf, unsigned int len)
+/home/user/prj-Meth13/cpu/arm/at91sam7s/loader/elfloader-otf.h:205: warning: The following parameters of elfloader_write_segment(struct elfloader_output *output, const char *buf, unsigned int len) are not documented:
+  parameter 'output'
+/home/user/prj-Meth13/core/lib/crc16.h:76: warning: argument 'crc' of command @param is not found in the argument list of crc16_data(const unsigned char *data, int datalen, unsigned short acc)
+/home/user/prj-Meth13/core/lib/crc16.h:76: warning: The following parameters of crc16_data(const unsigned char *data, int datalen, unsigned short acc) are not documented:
+  parameter 'acc'
+/home/user/prj-Meth13/core/ctk/ctk-draw.h:328: warning: Found unknown command `\define'
+/home/user/prj-Meth13/core/ctk/ctk-draw.h:328: warning: explicit link request to 'define' could not be resolved
+/home/user/prj-Meth13/core/ctk/ctk-draw.h:140: warning: argument 'clipy1' of command @param is not found in the argument list of ctk_draw_clear(unsigned char y1, unsigned char y2)
+/home/user/prj-Meth13/core/ctk/ctk-draw.h:140: warning: argument 'clipy2' of command @param is not found in the argument list of ctk_draw_clear(unsigned char y1, unsigned char y2)
+/home/user/prj-Meth13/cpu/avr/radio/rf230/hal.c:630: warning: argument 'address' of command @param is not found in the argument list of RADIO_VECT(void)
+/home/user/prj-Meth13/cpu/avr/radio/rf230/hal.c:630: warning: argument 'length' of command @param is not found in the argument list of RADIO_VECT(void)
+/home/user/prj-Meth13/cpu/avr/radio/rf230/hal.c:630: warning: argument 'data' of command @param is not found in the argument list of RADIO_VECT(void)
+/home/user/prj-Meth13/cpu/avr/radio/rf230/hal.c:630: warning: argument 'address' of command @param is not found in the argument list of RADIO_VECT(void)
+/home/user/prj-Meth13/cpu/avr/radio/rf230/hal.c:630: warning: argument 'length' of command @param is not found in the argument list of RADIO_VECT(void)
+/home/user/prj-Meth13/cpu/avr/radio/rf230/hal.c:630: warning: argument 'data' of command @param is not found in the argument list of RADIO_VECT(void)
+/home/user/prj-Meth13/cpu/mc1322x/clock.c:181: warning: argument 'dt' of command @param is not found in the argument list of clock_adjust_ticks(clock_time_t howmany)
+/home/user/prj-Meth13/cpu/mc1322x/clock.c:181: warning: The following parameters of clock_adjust_ticks(clock_time_t howmany) are not documented:
+  parameter 'howmany'
+/home/user/prj-Meth13/cpu/mc1322x/clock.c:160: warning: argument 'dt' of command @param is not found in the argument list of clock_delay_msec(uint16_t howlong)
+/home/user/prj-Meth13/cpu/mc1322x/clock.c:160: warning: The following parameters of clock_delay_msec(uint16_t howlong) are not documented:
+  parameter 'howlong'
+/home/user/prj-Meth13/core/sys/clock.h:126: warning: argument 'dt' of command @param is not found in the argument list of clock_delay_usec(uint16_t howlong)
+/home/user/prj-Meth13/core/sys/clock.h:126: warning: The following parameters of clock_delay_usec(uint16_t howlong) are not documented:
+  parameter 'howlong'
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:12: warning: unable to resolve reference to `sensors_event' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:17: warning: unable to resolve reference to `SENSORS_ACTIVATE(button_sensor)' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:18: warning: unable to resolve reference to `button_sensor.value(0)' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:22: warning: unable to resolve reference to `battery_sensor' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:23: warning: unable to resolve reference to `button_sensor' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:24: warning: unable to resolve reference to `pir_sensor' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:25: warning: unable to resolve reference to `radio_sensor' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:26: warning: unable to resolve reference to `sound_sensor' for \ref command
+/home/user/prj-Meth13/platform/esb/doc/quickref.txt:28: warning: unable to resolve reference to `vib_sensor' for \ref command
+/home/user/prj-Meth13/platform/msb430/doc/msb430.txt:20: warning: Unsupported xml/html tag <file> found
+/home/user/prj-Meth13/platform/msb430/doc/msb430.txt:21: warning: Unsupported xml/html tag <file> found
+/home/user/prj-Meth13/platform/msb430/doc/msb430.txt:22: warning: Unsupported xml/html tag <file> found
+/home/user/prj-Meth13/platform/msb430/doc/msb430.txt:29: warning: Unsupported xml/html tag <program> found
+/home/user/prj-Meth13/platform/msb430/doc/msb430.txt:33: warning: Unsupported xml/html tag <parallell> found
+/home/user/prj-Meth13/platform/msb430/doc/msb430.txt:33: warning: Unsupported xml/html tag <ihex> found
+/home/user/prj-Meth13/platform/OrisenStamp/dev/io-pins.c:36: warning: argument 'c' of command @param is not found in the argument list of ioPins_init()
+/home/user/prj-Meth13/platform/avr-ravenlcd/raven3290.c:4: warning: image file raven3290p.jpg is not found in IMAGE_PATH: assuming external image.
+/home/user/prj-Meth13/core/net/uip.h:1791: warning: unable to resolve reference to `uip_buf' for \ref command
+/home/user/prj-Meth13/core/net/uip.h:1791: warning: unable to resolve reference to `uip_buf' for \ref command
+/home/user/prj-Meth13/core/net/uip.h:1792: warning: unable to resolve reference to `uip_buf' for \ref command
+/home/user/prj-Meth13/core/net/uip.h:1791: warning: unable to resolve reference to `uip_buf' for \ref command
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:80: warning: explicit link request to 'uip_netif_addr_autoconf_set' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:80: warning: explicit link request to 'uip' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:89: warning: explicit link request to 'input' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:90: warning: explicit link request to 'output' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:101: warning: explicit link request to 'input' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:103: warning: explicit link request to 'output' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:107: warning: explicit link request to 'output' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:113: warning: explicit link request to 'input' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:497: warning: explicit link request to 'uip_buf' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:491: warning: explicit link request to 'input' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:494: warning: explicit link request to 'uncompress_hdr_hc1' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:494: warning: explicit link request to 'uncompress_hdr_hc01' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:499: warning: explicit link request to 'compress_hdr_hc1' could not be resolved
+/home/user/prj-Meth13/doc/sicslowpan-doc.txt:499: warning: explicit link request to 'compress_hdr_hc01' could not be resolved
+/home/user/prj-Meth13/core/net/sicslowpan.h:233: warning: Unsupported xml/html tag <PREFIX> found
+/home/user/prj-Meth13/doc/uip6-doc.txt:64: warning: explicit link request to 'UIP_CONF_REASSEMBLY' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:78: warning: explicit link request to 'uip_netif' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:80: warning: explicit link request to 'UIP_NETIF_MAX_ADDRESSES' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:7: warning: explicit link request to 'uip_nd6_neighbor' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:8: warning: explicit link request to 'uip_nd6_prefix' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:9: warning: explicit link request to 'uip_nd6_defrouter' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:19: warning: explicit link request to 'tcpip_ipv6_output' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:23: warning: explicit link request to 'uip_nd6_periodic' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:28: warning: explicit link request to 'tcpip_ipv6_output' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:32: warning: explicit link request to 'uip_nd6_io_ra_input' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:39: warning: explicit link request to 'uip_netif_dad' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:42: warning: explicit link request to 'uip_netif_addr_add' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:43: warning: explicit link request to 'uip_netif_get_interface_id' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:50: warning: explicit link request to 'UIP_ND6_MAX_RTR_SOLICITATIONS' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:53: warning: explicit link request to 'uip_netif_init' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:76: warning: explicit link request to 'uip_nd6_timer_periodic' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:78: warning: explicit link request to 'uip_netif_timer_dad' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:80: warning: explicit link request to 'uip_netif_timer_rs' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:82: warning: explicit link request to 'uip_netif_timer_periodic' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:84: warning: explicit link request to 'uip_reass_timer' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:88: warning: explicit link request to 'uip_nd6_timer_periodic' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:88: warning: explicit link request to 'uip_netif_timer_periodic' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:115: warning: unable to resolve reference to `reass' for \ref command
+/home/user/prj-Meth13/doc/uip6-doc.txt:119: warning: explicit link request to 'UIP_CONF_QUEUE_PKT' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:122: warning: explicit link request to 'UIP_ND6_MAX_NEIGHBORS' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:158: warning: explicit link request to 'UIP_LLADDR_LEN' could not be resolved
+/home/user/prj-Meth13/doc/uip6-doc.txt:345: warning: explicit link request to 'UIP_LL_802154' could not be resolved
+/home/user/prj-Meth13/core/net/uip-icmp6.h:116: warning: The following parameters of uip_icmp6_error_output(uint8_t type, uint8_t code, uint32_t param) are not documented:
+  parameter 'param'
+/home/user/prj-Meth13/doc/build-system.txt:2: warning: End of list marker found without any preceding list items
+/home/user/prj-Meth13/doc/build-system.txt:2: warning: End of list marker found without any preceding list items
+/home/user/prj-Meth13/doc/tutorial-raven.txt:408: warning: Found unknown command `\avr'
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:338: warning: unable to resolve reference to `Transmit' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:336: warning: unable to resolve reference to `Ethernet' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:335: warning: unable to resolve reference to `Early' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:334: warning: unable to resolve reference to `PHY' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:341: warning: unable to resolve reference to `Receive' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:337: warning: unable to resolve reference to `Receive' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:340: warning: unable to resolve reference to `Transmit' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:339: warning: unable to resolve reference to `Transmitter' for \ref command
+/home/user/prj-Meth13/cpu/avr/dev/lanc111.c:289: warning: unable to resolve reference to `MMU_ALO' for \ref command
+/home/user/prj-Meth13/cpu/stm32w108/hal/error-def.h:9: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/error-def.h:9: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/error.h:27: warning: explicit link request to 'ST_CONNECTION_OPEN' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/adc.h:14: warning: explicit link request to 'halInternalInitAdc()' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/adc.h:26: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/adc.h:27: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:189: warning: explicit link request to 'SLEEPMODE_WAKETIMER' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/micro-common.h:121: warning: argument 'panID' of command @param is not found in the argument list of halBootloaderStart(int8u mode, int8u channel, int16u panId)
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/micro-common.h:121: warning: The following parameters of halBootloaderStart(int8u mode, int8u channel, int16u panId) are not documented:
+  parameter 'panId'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:189: warning: explicit link request to 'SLEEPMODE_WAKETIMER' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:189: warning: explicit link request to 'ST_SUCCESS' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:192: warning: explicit link request to 'ST_SLEEP_INTERRUPTED' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:201: warning: Found unknown command `\nostackusage'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:204: warning: explicit link request to 'SLEEPMODE_WAKETIMER' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/micro-common.h:183: warning: explicit link request to 'SleepModes' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/system-timer.h:64: warning: Found unknown command `\nostackusage'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/system-timer.h:53: warning: Found unknown command `\nostackusage'
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/flash.h:111: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/flash.h:59: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/cpu/stm32w108/hal/micro/cortexm3/flash.h:91: warning: explicit link request to 'StStatus' could not be resolved
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/include/amy_6m.h:190: warning: explicit link request to 'GPS_UBX_RXM_RAW_t' could not be resolved
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/include/amy_6m.h:190: warning: explicit link request to 'GPS_UBX_RXM_RAW_t' could not be resolved
+/home/user/prj-Meth13/core/net/packetqueue.h:79: warning: unable to resolve reference to `queuebuf' for \ref command
+/home/user/prj-Meth13/platform/OrisenSpectrum/dev/include/amy_6m.h:190: warning: explicit link request to 'GPS_UBX_RXM_RAW_t' could not be resolved

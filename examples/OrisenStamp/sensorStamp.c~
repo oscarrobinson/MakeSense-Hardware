@@ -1,0 +1,187 @@
+#include <stdio.h>
+#include "contiki.h"
+#include "contiki-uart.h"
+#include "dev/leds.h"
+#include <mc1322x.h>
+#include <board.h>
+#include "net/rime.h"
+#include <string.h>
+#include "clock.h"
+#include "RTC.h"
+#include <stdlib.h>
+#include "net/rime/rimeaddr.h"
+
+
+#define FLASH_LED(l) {leds_on(l); clock_delay_msec(50); leds_off(l); clock_delay_msec(50);}
+char * ID;
+
+/*
+ * Pin    Initial function			Additional list										Arrangement
+ * ---    ----------------			---------------							------------------------
+ * T1			SDA  (I2C)							GPIO13										T15									 T20
+ * T2			SCL  (I2C)							GPIO12										T16									 T19
+ * T3			GPIO09									TMR1											T7									 T18
+ * T4			GPIO08									TMR0											T8									 T17
+ * T5			TX   (UART2)						GPIO18										T6									 T11
+ * T6			RX   (UART2)						GPIO19										T5									 T12
+ * T7			RTS  (UART2)						GPIO21										T1   T3					T9   T13
+ * T8			CTS  (UART2)						GPIO20										T2   T4					T10  T14
+ * T9			KBI7										GPIO29
+ * T10		KBI6										GPIO28										ADC0								 GND
+ * T11		SS   (SPI)							GPIO04										ADC1								 VCC
+ * T12		MISO (SPI)							GPIO05										RTS									 GND
+ * T13		MOSI (SPI)							GPIO06										CTS									 VIN
+ * T14		SCK  (SPI)							GPIO07										RX									 SS
+ * T15		ADC0										GPIO30										TX									 MISO
+ * T16		ADC1										GPIO31										SDA  GPIO9			KBI7 MOSI
+ * T17		VIN																								SCL  GPIO8			KBI6 SCK
+ * T18		GND
+ * T19		VCC
+ * T20		GND
+ */
+
+/*---------------------------------------------------------------------------*/
+PROCESS(test_uart2_process, "Test UART2");
+AUTOSTART_PROCESSES(&test_uart2_process);
+/*---------------------------------------------------------------------------*/
+static char * idAsString(){
+   rimeaddr_t ID = rimeaddr_node_addr;
+   int counter = 0;
+   char * idString = malloc(17*sizeof(char));
+   for(counter = 0;counter<8;counter++){
+      char * temp = malloc(3*sizeof(char));
+      sprintf(temp, "%02X\0", ID.u8[counter]); 
+      strcat(idString, temp);
+      free(temp);
+      printf("%02X\n",ID.u8[counter]);
+   }
+   idString[16] = '\0';
+   return idString;
+}
+
+//Time is still just time since hardware was last flashed.  How do we fix this?
+/*
+unsigned long getUnixTimestamp(){
+   struct RTC_time t;
+   RTC_getTime(&t);
+   printf("Time - year: %d | month: %d | date: %d | hour: %d | minute: %d | second: %d\n", t.year, t.month, t.day, t.hours, t.minutes, t.seconds);    
+   unsigned long time = 34242343;
+   return time;
+
+}
+*/
+
+
+
+static void abc_recv(struct abc_conn *c)
+{
+   printf("abc message received: '%s'\n", (char *)packetbuf_dataptr());
+   FLASH_LED(LEDS_BLUE);
+}
+
+static const struct abc_callbacks abc_call = {abc_recv};
+static struct abc_conn abc;
+
+PROCESS(example_abc_process, "send data");
+PROCESS_THREAD(example_abc_process, ev, data)
+{
+   static struct etimer et;
+   PROCESS_EXITHANDLER(abc_close(&abc);)
+   PROCESS_BEGIN();
+   
+   int dataLength = 0;
+   dataLength = strlen(data);
+  
+   //get the timestamp
+   unsigned long timestamp;
+   timestamp = getUnixTimestamp();
+   //get length of timestamp
+   int timestampLen = 0;
+   int temp = (int)timestamp;
+   while (temp>0){
+      temp/=10;
+      timestampLen++;
+   }
+
+      
+   //convert id to string
+   int idStringLen = 30;
+   char * idString = malloc(idStringLen * sizeof(char));
+   sprintf(idString,"%s",ID);
+
+   //prepare the string to send
+   int numberOfExtraChars = 6;
+   char * stringToSend = malloc((timestampLen + dataLength + idStringLen +  numberOfExtraChars)*sizeof(char));
+
+   sprintf(stringToSend,"%s X %s X %lu", idString,data, timestamp);
+   
+
+   printf("%s \n", stringToSend);
+
+   abc_open(&abc, 128, &abc_call);
+   packetbuf_copyfrom(stringToSend, timestampLen + dataLength + idStringLen +  numberOfExtraChars);
+   abc_send(&abc);
+   FLASH_LED(LEDS_GREEN);
+
+   //printf("abc message sent\n");
+
+   free(data);
+   free(stringToSend);
+   free(idString);
+   PROCESS_END();
+}
+
+
+PROCESS_THREAD(test_uart2_process, ev, data)
+{
+  PROCESS_BEGIN();
+  ID = idAsString();
+  static struct etimer et;
+  static char *str = "Hello world\n";
+  static int   strlen = 13;
+  static int i, j;
+
+  leds_off(LEDS_ALL);
+
+  // Set UART2 to 115200 baud
+	uart2_init(INC, MOD, SAMP);
+
+  // Write to the serial - but also allow for a physical loopback
+  // through wired connection between UART2 TX and UART2 RX pins
+  //
+  // Tests our TX and RX
+  //
+
+  int counter = 0;
+  int size = 30;
+  char *  dataRead = malloc(size * sizeof(char));
+  abc_open(&abc, 128, &abc_call);
+  //read the sensor data from serial into dataRead array
+  while (1) {
+
+    char ch = uart2_getc();
+    if (ch=='\n'){
+         //the character before \n is a \r, we don't want that so we overwrite it with a \0 which we do need
+		   dataRead[counter-1] = '\0';
+         
+         //copy data into new string
+         int i=0;
+         char * dataString = malloc((counter) * sizeof(char));
+         for(i=0;i<(counter);i++){
+  	         dataString[i]=*((char*)dataRead+i);
+         }
+         printf("reading data: %s\n", dataString);
+			process_start (&example_abc_process, dataString);
+			FLASH_LED(LEDS_GREEN);
+         free(dataRead);
+         dataRead = malloc(size * sizeof(char));	
+         counter=0;	
+	   }
+    else{
+      dataRead[counter]=ch;
+      counter++;
+ 	 }
+  }
+  PROCESS_END();	
+}
+/*---------------------------------------------------------------------------*/

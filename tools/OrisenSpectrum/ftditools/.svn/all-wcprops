@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/Makefile
+END
+bbmc_n.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/bbmc_n.c
+END
+FT230X_Spectrum_Template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/FT230X_Spectrum_Template.xml
+END
+bitbang_cbus
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/bitbang_cbus
+END
+bbmc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/bbmc
+END
+bitbang_cbus.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/bitbang_cbus.c
+END
+bbmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/OrisenSpectrum/ftditools/bbmc.c
+END

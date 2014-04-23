@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/license.txt
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/setup.py
+END
+install-pyjtag.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/install-pyjtag.nsi
+END
+gen-ihex.py
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/gen-ihex.py
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/readme.txt
+END
+jtag.py
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/jtag.py
+END
+elf.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/elf.py
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/platform/esb/buildscripts/jtag/pyjtag/makefile
+END

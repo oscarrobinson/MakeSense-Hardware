@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x/tools/rimecollect-rrd
+END
+default.rrdtmpl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x/tools/rimecollect-rrd/default.rrdtmpl
+END
+collect2rrd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x/tools/rimecollect-rrd/collect2rrd.pl
+END
+meshstat.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/cpu/mc1322x/tools/rimecollect-rrd/meshstat.cgi
+END

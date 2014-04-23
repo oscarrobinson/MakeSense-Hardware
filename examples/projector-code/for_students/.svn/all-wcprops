@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students
+END
+example-trickle.c
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/example-trickle.c
+END
+hello-world.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/hello-world.c
+END
+test-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/test-button.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/Makefile
+END
+report-top3.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/report-top3.c
+END
+ex-broadcast-lqi.c
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/ex-broadcast-lqi.c
+END
+example-unicast.c
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/example-unicast.c
+END
+packets.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/packets.h
+END
+Makefile.OrisenPrime.defines
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/Makefile.OrisenPrime.defines
+END
+example-HMC5883L.c
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/example-HMC5883L.c
+END
+myneighbours.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/myneighbours.c
+END
+ex-mag.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/ex-mag.c
+END
+example-abc.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/example-abc.c
+END
+ex-neighbours.c
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/ex-neighbours.c
+END
+myneighbours.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/myneighbours.h
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/examples/projector-code/for_students/Makefile.target
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins
+END
+MspCLI.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/MspCLI.java
+END
+CodeUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/CodeUI.java
+END
+MspCodeWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/MspCodeWatcher.java
+END
+CodeVisualizerSkin.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/CodeVisualizerSkin.java
+END
+MspCycleWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/MspCycleWatcher.java
+END
+MspBreakpoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/MspBreakpoint.java
+END
+BreakpointsUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/BreakpointsUI.java
+END
+MspStackWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/apps/mspsim/src/se/sics/cooja/mspmote/plugins/MspStackWatcher.java
+END

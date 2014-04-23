@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/contikimote
+END
+ContikiMote.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/contikimote/ContikiMote.class
+END
+ContikiMoteInterface.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/contikimote/ContikiMoteInterface.class
+END
+ContikiMoteType.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/contikimote/ContikiMoteType.class
+END
+ContikiMoteType$NetworkStack.class
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/contikimote/ContikiMoteType$NetworkStack.class
+END
+ContikiProcess.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/trac-svn/insentive/!svn/ver/239/Contiki-open-source/branches/prj-Meth13/tools/cooja/build/se/sics/cooja/contikimote/ContikiProcess.class
+END
