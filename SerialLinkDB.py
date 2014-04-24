@@ -8,7 +8,7 @@ cpuserial = "0000000000000000"
 
 # configure the serial connections
 ser = serial.Serial(
-	port='/dev/cu.usbserial-1d11B',
+	port='/dev/cu.usbserial-1a12B',
 	baudrate=115200,
 	parity=serial.PARITY_NONE,
 	stopbits=serial.STOPBITS_ONE,
@@ -27,12 +27,12 @@ db = MySQLdb.connect(host="eu-cdbr-azure-north-b.cloudapp.net",
  
 
 cur = db.cursor() 
-cur.execute("TRUNCATE TABLE sensor_data;")
 
 count = 0;
 startTimestampRead = 0
 startTimestamp = 0
 timestamps = dict()
+sensor_ids = []
 
 while (True):
 	if (ser.inWaiting() > 0):
@@ -40,30 +40,41 @@ while (True):
 		serdata = ser.readline()
 		print serdata
 		dataList = serdata.split()
-		hardwareId = dataList[0]
+		sensorId = dataList[0]
 		data = dataList[2]
 		timestamp = dataList[4]
-		ontologyId = dataList[6]
+		sensorOnt = 1
 
 		#if first reading for a stamp, save timestamp stuff so can calculate its timestamp
-		if hardwareId not in timestamps:
+		if sensorId not in timestamps:
 			startTimestampRead = int(timestamp)
 			startTimestamp = int(time.time())
 			timestampDat = [startTimestampRead, startTimestamp]
-			timestamps[hardwareId] = timestampDat
+			timestamps[sensorId] = timestampDat
 
 
-		timestamp = int((timestamps[hardwareId])[1]) + (int(timestamp)-int((timestamps[hardwareId])[0]))
+		timestamp = int((timestamps[sensorId])[1]) + (int(timestamp)-int((timestamps[sensorId])[0]))
 
-		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || ontologyId: "+str(ontologyId)
+		print "ID: "+str(sensorId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || ontologyId: "+str(sensorOnt)
 		
 		count+=1
 
-		query="INSERT INTO sensor_data(id,data,timestamp,networkid,ontologyid) VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\',\'"+str(cpuserial)+"\',\'"+str(ontologyId)+"\');"
-		print query
+		if sensorId not in sensor_ids:
+			sensor_ids.append(sensorId)
+			query = "SELECT COUNT(1) FROM sensors WHERE sensor_id=\'"+sensorId+"\'"
+			cur.execute(query)
+			db.commit()
+			if cur.fetchone()[0]==0:
+				print "Adding "+sensorId+" to sensors"
+				query = "INSERT INTO sensors(sensor_id, network_id, ontology_id) VALUES(\'"+sensorId+"\',\'"+cpuserial+"\',\'"+str(sensorOnt)+"\')"
+				cur.execute(query)
+				db.commit()
+
+		print "id: "+sensorId+" || timestamp: "+str(timestamp)+" || data: "+str(data)
+
+		query = "INSERT INTO data(sensor_id, timestamp, reading) VALUES(\'"+sensorId+"\',\'"+str(timestamp)+"\',\'"+str(data)+"\')"
 		cur.execute(query)
 		db.commit()
-		count = count+1
 
 ser.close()
 exit()

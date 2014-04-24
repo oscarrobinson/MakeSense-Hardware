@@ -37,7 +37,7 @@ db = MySQLdb.connect(host="eu-cdbr-azure-north-b.cloudapp.net",
  
 
 cur = db.cursor() 
-cur.execute("TRUNCATE TABLE sensor_data;")
+
 
 count = 1;
 
@@ -45,7 +45,11 @@ startTimestampRead = 0
 startTimestamp = 0
 timestamps = dict()
 
+sensor_ids = []
+
 serdata = ""
+
+netId = getserial()
 
 while (True):
         read = ser.read()
@@ -55,30 +59,39 @@ while (True):
                 print serdata
 		serdata = serdata[:-1] #remove the ; from the end of the string so timestamp properly parsed
                 dataList = serdata.split()
-		hardwareId = dataList[0]
+		sensorId = dataList[0]
 		data = dataList[2]
 		timestamp = dataList[4]
 		ontologyId = dataList[6]
 
 
 		#if first reading for a stamp, save timestamp stuff so can calculate its timestamp
-		if hardwareId not in timestamps:
+		if sensorId not in timestamps:
 			startTimestampRead = int(timestamp)
 			startTimestamp = int(time.time())
 			timestampDat = [startTimestampRead, startTimestamp]
-			timestamps[hardwareId] = timestampDat
+			timestamps[sensorId] = timestampDat
 
 
-		timestamp = int((timestamps[hardwareId])[1]) + (int(timestamp)-int((timestamps[hardwareId])[0]))
+		timestamp = int((timestamps[netId])[1]) + (int(timestamp)-int((timestamps[netId])[0]))
 
-		
-		piId = getserial()
-		count+=1
-		print "ID: "+str(hardwareId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || piId: "+piId+" || ontologyId: "+str(ontologyId)
-		query="INSERT INTO sensor_data(id,data,timestamp,networkid,ontologyid) VALUES(\'"+str(hardwareId)+"\', \'"+str(data)+"\',\'"+str(timestamp)+"\',\'"+str(piId)+"\',\'"+str(ontologyId)+"\');"
-		print query
+
+		if sensorId not in sensor_ids:
+			sensor_ids.append(sensorId)
+			query = "SELECT COUNT(1) FROM sensors WHERE sensor_id=\'"+sensorId+"\'"
+			cur.execute(query)
+			db.commit()
+			if cur.fetchone()[0]==0:
+				print "Adding "+sensorId+" to sensors"
+				query = "INSERT INTO sensors(sensor_id, network_id, ontology_id) VALUES(\'"+sensorId+"\',\'"+netId+"\',\'"+ontologyId+"\')"
+				cur.execute(query)
+				db.commit()
+
+
+		query = "INSERT INTO data(sensor_id, timestamp, reading) VALUES(\'"+sensorId+"\',\'"+timestamp+"\',\'"+data+"\')"
 		cur.execute(query)
 		db.commit()
+
 		count = count+1
 		serdata=""
 

@@ -3,10 +3,10 @@ import time
 import string
 import random
 
-piId = "00000000f01243e9"
-sensor1ID = "af0278fe920101fe"
-sensor2ID = "af0278fe019283fe"
-sensor3ID = "af0278fe912131415"
+piId = "0000000012121212"
+sensor1ID = "af0278fe9201010101"
+sensor2ID = "af0278fef0f0f0f0"
+sensor3ID = "a0121212012012012"
 sensor1ont = "1"
 sensor2ont = "1"
 sensor3ont = "2"
@@ -45,21 +45,21 @@ while (True):
 			sensorId = sensor1ID
 			sensorOnt = sensor1ont
 			sensorData = sensor1data
-			sensor1data = random.randint(10,1000)
+			sensor1data = random.randint(400,430)
 
 		elif counter == 2:
 			netId = piId
 			sensorId = sensor2ID
 			sensorOnt = sensor2ont
 			sensorData = sensor2data
-			sensor2data = random.randint(10,1000)
+			sensor2data = random.randint(500,520)
 
 		elif counter == 3:
 			netId = piId
 			sensorId = sensor3ID
 			sensorOnt = sensor3ont
 			sensorData = sensor3data
-			sensor3data = random.randint(10,25)
+			sensor3data = random.randint(20,22)
 			counter = 0
 
 		sensorTime = time.time()
