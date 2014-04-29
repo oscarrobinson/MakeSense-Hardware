@@ -7,7 +7,7 @@
 #include <EngduinoThermistor.h>
 
 void setup() {
-  Serial.begin(115200);
+  Serial1.begin(115200);
   EngduinoLEDs.begin();
   EngduinoLight.begin();
   EngduinoThermistor.begin();
@@ -23,7 +23,7 @@ void loop()
    
   //Serial1.print(t);
   //Serial1.print(" ");
-  Serial.println(l);
+  Serial1.println(l);
 
   
   delay(2000);
