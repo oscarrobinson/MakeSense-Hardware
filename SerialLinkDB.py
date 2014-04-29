@@ -4,7 +4,7 @@ import string
 import random
 import serial
 
-cpuserial = "0000000000000000"
+cpuserial = "213801249821408"
 
 # configure the serial connections
 ser = serial.Serial(

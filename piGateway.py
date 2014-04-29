@@ -73,7 +73,7 @@ while (True):
 			timestamps[sensorId] = timestampDat
 
 
-		timestamp = int((timestamps[netId])[1]) + (int(timestamp)-int((timestamps[netId])[0]))
+		timestamp = int((timestamps[sensorId])[1]) + (int(timestamp)-int((timestamps[sensorId])[0]))
 
 
 		if sensorId not in sensor_ids:
@@ -88,7 +88,7 @@ while (True):
 				db.commit()
 
 
-		query = "INSERT INTO data(sensor_id, timestamp, reading) VALUES(\'"+sensorId+"\',\'"+timestamp+"\',\'"+data+"\')"
+		query = "INSERT INTO data(sensor_id, timestamp, reading) VALUES(\'"+sensorId+"\',\'"+str(timestamp)+"\',\'"+data+"\')"
 		cur.execute(query)
 		db.commit()
 

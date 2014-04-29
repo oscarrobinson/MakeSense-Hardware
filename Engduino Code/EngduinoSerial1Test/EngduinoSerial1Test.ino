@@ -4,13 +4,13 @@
 //
 #include <EngduinoLEDs.h>
 #include <EngduinoLight.h>
-#include <EngduinoThermistor.h>
+//#include <EngduinoThermistor.h>
 
 void setup() {
   Serial.begin(115200);
   EngduinoLEDs.begin();
   EngduinoLight.begin();
-  EngduinoThermistor.begin();
+  //EngduinoThermistor.begin();
 }
 
 void loop()
@@ -19,11 +19,11 @@ void loop()
   float t;
  
   l = EngduinoLight.lightLevel();
-  t = EngduinoThermistor.temperature();
+  //t = EngduinoThermistor.temperature();
    
   //Serial1.print(t);
   //Serial1.print(" ");
-  Serial.println(l);
+  Serial1.print(l);
 
   
   delay(2000);
