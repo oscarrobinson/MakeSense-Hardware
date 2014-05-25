@@ -53,7 +53,7 @@ while (True):
 			timestamps[sensorId] = timestampDat
 
 
-		timestamp = int((timestamps[sensorId])[1]) + (int(timestamp)-int((timestamps[sensorId])[0]))
+		timestamp = int((timestamps[sensorId])[1]) + (int(timestamp)-int((timestamps[sensorId])[0]))+3600
 
 		print "ID: "+str(sensorId)+"|| reading: "+str(data)+" || timestamp: "+str(timestamp)+" || ontologyId: "+str(sensorOnt)
 		
